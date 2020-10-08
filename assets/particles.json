@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 10,
+      "value": 20,
       "density": {
         "enable": true,
         "value_area": 800
@@ -11,14 +11,36 @@
       "value": ["#dc052d"]
     },
     "shape": {
-      "type": "polygon",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 4
-      }
+       "type": "image",  
+       "stroke": {             
+         "width": 0,           
+         "color": "#000000"    
+       },
+       "polygon": {
+         "nb_sides": 12
+       },
+       "image": [{
+         "src": "assets/images/oth_prot0047.png",                                   
+         "width": 100,                       
+         "height": 100                       
+       },{
+         "src": "assets/images/protein_movie0320.png",  
+         "width": 100,                       
+         "height": 100                       
+       },{
+         "src": "assets/images/protein_movie0360.png",  
+         "width": 100,                       
+         "height": 100                       
+       },{
+         "src": "assets/images/protein_movie0280.png",  
+         "width": 100,                       
+         "height": 100                       
+       },{
+         "src": "assets/images/oth_prot0076.png",  
+         "width": 100,                       
+         "height": 100                       
+       }
+       ]                                     
     },
     "opacity": {
       "value": 0.7,
@@ -31,7 +53,7 @@
       }
     },
     "size": {
-      "value": 15,
+      "value": 70,
       "random": true,
       "anim": {
         "enable": false,
