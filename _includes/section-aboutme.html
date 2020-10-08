@@ -1,11 +1,10 @@
-<h1 class="title">{{site.about_me_title}}</h1>
-<!--
-need to look into padding for the image to see if can fit the box to the image and not overlap the text
-<div style="display: flex, flex-wrap: wrap;" class="p-0">
-	<div class="profile col-4 " style="float: left;">
-		<img src="/assets/images/tiny_pic2.png" alt="Profile Picture" style="height:300px;">
+<div class="container" style="height:350px;">
+	<h1 class="title">{{site.about_me_title}}</h1>
+	<div style="display: flex, flex-wrap: wrap;" class="p-0">
+		<div class="profile col-4 " style="float: left;">
+			<img src="/assets/images/tiny_pic2.png" alt="Profile Picture" style="height:250px;padding: 0px 30px 40px 0px;object-fit:cover" >
+		</div>
 	</div>
+	{% capture about %}{% include aboutme.md %}{% endcapture %}
+	<p class="description" data-aos="fade-down">{{ about | markdownify}}</p>
 </div>
-//-->
-{% capture about %}{% include aboutme.md %}{% endcapture %}
-<p class="description" data-aos="fade-down">{{ about | markdownify}}</p>
