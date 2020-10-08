@@ -17,45 +17,56 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
-  tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
-
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: Carnegie Mellon/University of Pittsburgh
+  title-url: http://compbio.cmu.edu/
+  date: Aug 2019 - Present
+  subtitle: PhD Student in Koes Lab
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Regenstrief Institute
+  title-url: https://www.regenstrief.org/
+  date: Summer 2019
+  subtitle: Student Research Assistant - Center for Biomedical Informatics
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: Neural Networks
+    - tag: Hyperparameter Optimization
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: IUPUI Division of Nephrology
+  title-url: none
+  date: Summer 2018
+  subtitle: Student Intern
+  tags:
+    - tag: Clustering
+    - tag: Dimensionality Reduction
+    - tag: Github
+  timeline-side: right
+
+- title: IUPUI Division of Nephrology
+  title-url: none
+  date: Summer 2017
+  subtitle: Indiana University O'Brien Student Intern
+  tags:
+    - tag: Java
+  timeline-side: left
+
+- title: Lill Lab
+  title-url: https://pharma.unibas.ch/de/personen/markus-lill/
+  date: 2017 - 2019
+  subtitle: Undergraduate Research Assistant - Department of Medicinal Chemistry & Molecular Pharmacology
+  tags:
+    - tag: Molecular Dynamics
+    - tag: Machine Learning
+  timeline-side: right
+
+  #- title: Undergraduate Teaching Assistant
+  #  title-url: "javascript:void(0)"
+  #  date: 2016 - 2019
+  #  subtitle: Modern Mechanics and Electricity & Magnetism
+  #  timeline-side: right
+
+- title: Purdue University
+  title-url: https://purdue.edu/
+  date: 2015 - 2019
+  subtitle: B.S. Physics & Mathematics
   timeline-side: left
