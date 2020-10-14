@@ -1,9 +1,8 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
-var postcss = require('gulp-postcss');
-var cssnano = require('cssnano');
-var prefix = require('autoprefixer');
+var cssnano = require('gulp-cssnano');
+var prefix = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
@@ -21,21 +20,37 @@ function styles() {
       sass({
         includePaths: [ 'scss' ],
         onError: browserSync.notify
-	})
+      })
     )
-    .pipe(postcss([prefix([ 'last 3 versions', '> 1%', 'ie 8' ], { cascade: true })]))
-    .pipe(rename('main.min.h'))
-    .pipe(postcss([cssnano()]))
+    .pipe(prefix([ 'last 3 versions', '> 1%', 'ie 8' ], { cascade: true }))
+    .pipe(rename('main.min.css'))
+    .pipe(cssnano())
     .pipe(gulp.dest('_site/assets/css/'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(gulp.dest('assets/css'));
 }
+//function styles() {
+//  return gulp
+//    .src([ '_sass/*.scss' ])
+//    .pipe(
+//      sass({
+//        includePaths: [ 'scss' ],
+//        onError: sass.logError,
+//	})
+//    )
+//    .pipe(postcss([prefix({ cascade: true})]))
+//    .pipe(rename('main.min.h'))
+//    .pipe(postcss(cssnano()))
+//    .pipe(gulp.dest('_site/assets/css/'))
+//    .pipe(browserSync.reload({ stream: true }))
+//    .pipe(gulp.dest('assets/css'));
+//}
 
 function stylesVendors() {
   return gulp
     .src([ '_sass/vendors/*.css' ])
     .pipe(concat('vendors.min.css'))
-    .pipe(postcss([cssnano()]))
+    .pipe(cssnano())
     .pipe(gulp.dest('_site/assets/css/'))
     .pipe(gulp.dest('assets/css'));
 }
@@ -112,7 +127,7 @@ function watchData() {
 
 function watchMarkup() {
   gulp.watch(
-    [ 'index.html', '_includes/*.html', '_layouts/*.html' ],
+    [ 'index.html', '_includes/*.html', '_layouts/*.html', '_includes/*.md'],
     gulp.series(jekyll, browserSyncReload)
   );
 }

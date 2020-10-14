@@ -20,7 +20,8 @@ $card-bg-color: linear-gradient(
   rgba(115, 115, 115, 0.15) 15%,
   rgba(43, 45, 47, 1) 80%
 );
-$primary-color: #AF00EE;
+$primary-color: #AF59D0;
+$title-color: #AF00EE;
 
 /* General */
 
@@ -60,7 +61,7 @@ a {
 }
 
 .highlight-title {
-  color: $primary-color;
+  color: $title-color;
   text-shadow: 0.25rem 0.25rem 0.25rem #8900b8;
 }
 
