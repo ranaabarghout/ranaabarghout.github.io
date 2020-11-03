@@ -12,64 +12,72 @@
     {% for event in site.data.timeline %}
       {% if event.timeline-side == 'left' %}
         <li>
-          <div class="direction-l">
-            <div class="flag-wrapper">
-              <span class="hexagon"></span>
-              <span class="flag neumorphism-button" data-aos="zoom-in-right">
-		{% if event.title-url == 'none' %}
-                  <span>{{event.title}}</span>
-		{% else %}
-		<a href="{{event.title-url}}" target="_blank" rel="noreferrer">
-		  <span>{{event.title}}</span>
-		</a>
-		{% endif %}
-              </span>
-              <span class="time-wrapper" data-aos="zoom-in-right">
-                <span class="time neumorphism-card">{{event.date}}</span>
-              </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-right">
-              {{event.subtitle}}
-              {% if event.tags %}
-                <div class="tag-wrapper">
-                  {% for tag in event.tags %}
-                    <span class="tag neumorphism-card">{{tag.tag}}</span>
-                  {% endfor %}
+          <div >
+	    <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="hexagon"></span>
+                <div class="desc neumorphism-card" data-aos="zoom-in-right">
+                  <span class="flag neumorphism-button" data-aos="zoom-in-right">
+	            {% if event.title-url == 'none' %}
+                      <span>{{event.title}}</span>
+	            {% else %}
+	            <a href="{{event.title-url}}" target="_blank" rel="noreferrer">
+	              <span>{{event.title}}</span>
+	            </a>
+	            {% endif %}
+                  </span>
+	          <p>{{event.subtitle}}</p>
+                  {% if event.tags %}
+                  <div class="tag-wrapper">
+                    {% for tag in event.tags %}
+                      <span class="tag neumorphism-card">{{tag.tag}}</span>
+                    {% endfor %}
+                  </div>
+                  {% endif %}
                 </div>
-              {% endif %}
-            </div>
+	      </div>
+	    </div>
+	    <div class="direction-r">
+              <span class="direction-r time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card-time">{{event.date}}</span>
+              </span>
+	    </div>
           </div>
         </li>
       {% endif %}
 
       {% if event.timeline-side == 'right' %}
         <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <span class="hexagon"></span>
-              <span class="flag neumorphism-button" data-aos="zoom-in-left">
-		{% if event.title-url == 'none' %}
-                  <span>{{event.title}}</span>
-		{% else %}
-		<a href="{{event.title-url}}" target="_blank" rel="noreferrer">
-		  <span>{{event.title}}</span>
-		</a>
-		{% endif %}
-              </span>
-              <span class="time-wrapper" data-aos="zoom-in-left">
-                <span class="time neumorphism-card">{{event.date}}</span>
-              </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-left">
-              {{event.subtitle}}
-              {% if event.tags %}
-                <div class="tag-wrapper">
-                  {% for tag in event.tags %}
-                    <span class="tag neumorphism-card">{{tag.tag}}</span>
-                  {% endfor %}
+          <div class="">
+	    <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="hexagon"></span>
+                <div class="desc neumorphism-card" data-aos="zoom-in-left">
+                  <span class="flag neumorphism-button" data-aos="zoom-in-left">
+	            {% if event.title-url == 'none' %}
+                      <span>{{event.title}}</span>
+  	            {% else %}
+  	              <a href="{{event.title-url}}" target="_blank" rel="noreferrer">
+  	                <span>{{event.title}}</span>
+  	              </a>
+  	            {% endif %}
+                  </span>
+		  <p>{{event.subtitle}}</p>
+                  {% if event.tags %}
+                    <div class="tag-wrapper">
+                      {% for tag in event.tags %}
+                        <span class="tag neumorphism-card">{{tag.tag}}</span>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
                 </div>
-              {% endif %}
+	      </div>
             </div>
+	    <div class="direction-l">
+              <span class="direction-l time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card-time">{{event.date}}</span>
+              </span>
+	    </div>
           </div>
         </li>
       {% endif %}
