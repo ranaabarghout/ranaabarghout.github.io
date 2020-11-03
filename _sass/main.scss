@@ -38,6 +38,9 @@ html {
 body {
   height: 100%;
 }
+img {
+	border-radius: 15px;
+}
 
 /* Typography */
 
@@ -520,7 +523,8 @@ a {
     span {
       position: relative;
       transition: 0.4s;
-      font-size: .85rem;
+      font-size: 1rem;
+      color: $primary-color
     }
 
     span:after {
@@ -550,7 +554,7 @@ a {
     margin-top: 0.3rem;
 
     span {
-      font-size: .85rem;
+      font-size: 1rem;
     }
   }
 
@@ -841,6 +845,9 @@ a {
     .social {
       font-size: 2rem;
     }
+  }
+  .img {
+	margin-right: 100%
   }
 }
 
