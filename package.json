@@ -9,7 +9,7 @@
   "author": "Long Do",
   "license": "MIT",
   "dependencies": {
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
@@ -24,6 +24,7 @@
   },
   "resolutions": {
     "js-yaml": "^3.14.0",
-    "object-path": "^0.11.5"
+    "object-path": "^0.11.5",
+    "debug": "^4.3.1"
   }
 }
