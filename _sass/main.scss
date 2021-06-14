@@ -49,6 +49,9 @@ h1 {
   font-weight: $font-weight-strong;
   line-height: 2rem;
 }
+h3 {
+  margin: 0.2rem 0rem 0.7rem;
+}
 
 p {
   word-spacing: 0.1rem;
@@ -341,6 +344,16 @@ a {
     }
   }
 
+  .gsc:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorGSc 1s linear forwards;
+    }
+    .social-svg {
+      fill: #000000;
+    }
+  }
+
   @keyframes outWaveIn {
     to {
       stroke-dasharray: 510;
@@ -382,6 +395,12 @@ a {
   @keyframes colorTwitter {
     to {
       stroke: #1da1f2;
+    }
+  }
+
+  @keyframes colorGSc {
+    to {
+      stroke: #000000;
     }
   }
 }
@@ -589,16 +608,26 @@ a {
 
 .project .name-link-wrapper .links {
   font-size: 1.5rem;
-  margin: 1rem 0.5rem;
+  margin: 0.3rem 0.2rem;
 }
 
+.project-auth {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  margin: 0.2rem auto;
+}
 .project-desc {
   line-height: 1rem;
+  margin: 0.1rem auto;
 }
 
 .project-stars-forks {
   fill: $text-color;
   font-family: $font-family-numbers;
+}
+
+.h3 {
+  margin: 0.3rem auto;
 }
 
 .tag-wrapper {

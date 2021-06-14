@@ -1,15 +1,24 @@
 {% if site.show_projects %}
   <h1 class="title"><span>{{site.projects_title}}</span></h1>
+  <h2 class="description" style="text-align: center;"><span style="text-align: center;">A list of the published papers and conference talks that I have given. <br/>For a more up to date list, check out my <a href="{{site.gsc_username}}">Google Scholar page</a>.</span></h2>
   <div class="projects-wrapper">
     {% for project in site.data.projects %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3>
         </div>
-        <p class="project-desc">{{project.descr}}</p>
-        {% if project.demo %}
-          <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
-            Demo
+	<p class="project-desc">{{project.descr}}-{{project.date}}</p>
+	{% if project.befauthors or project.aftauthors %}
+	<p class="project-auth">{{project.befauthors}} <strong><u>Andrew McNutt</u></strong>, {{project.aftauthors}}</p> 
+	{% endif %}
+        {% if project.paper %}
+          <a class="highlight-link" href="{{project.paper}}" target="_blank" rel="noreferrer">
+            Link to Paper
+          </a>
+        {% endif %}
+        {% if project.talk %}
+          <a class="highlight-link" href="{{project.talk}}" target="_blank" rel="noreferrer">
+            Link to Talk
           </a>
         {% endif %}
         {% if project.tags %}
