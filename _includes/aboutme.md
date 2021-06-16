@@ -5,8 +5,9 @@ I am a second year PhD student in the <a href="http://www.compbio.cmu.edu/">Join
 * Deep Learning
 * Structural Biology
 * Metric Learning
+* Self-Supervised Learning
 
-I graduated from Purdue University in 2019 with a double major in Physics and Mathematics.
+I graduated from Purdue University with honors in 2019 with a double major in Physics and Mathematics.
 
 ### Other Interests
 When I am not doing research I enjoy cooking, baking, and fermenting (Checkout my <a href="https://github.com/drewnutt/CookBook">Cookbook</a>). My other time is spent outdoors enjoying nature while climbing, hiking, and camping.
