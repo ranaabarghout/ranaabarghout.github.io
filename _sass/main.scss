@@ -344,13 +344,16 @@ a {
     }
   }
 
-  .gsc:hover {
+  .GSc:hover {
     .circle {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
         colorGSc 1s linear forwards;
     }
     .social-svg {
-      fill: #000000;
+      fill: #4286f5;
+    }
+    .label {
+	top: 1rem;
     }
   }
 
@@ -392,15 +395,15 @@ a {
     }
   }
 
-  @keyframes colorTwitter {
+  @keyframes colorGSc {
     to {
-      stroke: #1da1f2;
+      stroke: #4286f5;
     }
   }
 
-  @keyframes colorGSc {
+  @keyframes colorTwitter {
     to {
-      stroke: #000000;
+      stroke: #1da1f2;
     }
   }
 }
