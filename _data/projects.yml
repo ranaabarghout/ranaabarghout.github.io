@@ -12,12 +12,25 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+#
+- name: "Integrated cytometry with machine learning applied to high-content imaging of human kidney tissue for in-situ cell classification and neighborhood analysis"
+  befauthors: "Seth Winfree,"
+  aftauthors: "Suraj Khochare, Tyler J. Borgard, Daria Barwinska, Angela R. Sabo, Michael J. Ferkowicz, James C. Williams Jr, James E. Lingeman, Connor J Gulbronson, Katherine J. Kelly, Timothy A. Sutton, Pierre C. Dagher, Michael T. Eadon, Kenneth W. Dunn and Tarek M. El-Achkar"
+  descr: "bioRxiv"
+  date: "Jan 2022"
+  paper: https://doi.org/10.1101/2021.12.27.474025
+
+- name: "Exploring &#120491;&#120491;G prediction with Siamese Networks "
+  aftauthors: "David Koes"
+  descr: "Machine Learning for Structural Biology (MLSB) Workshop at NeurIPS (Poster)"
+  date: "Dec 2021"
+  talk: https://neurips.cc/virtual/2021/workshop/21869#wse-detail-34354
 
 - name: "GNINA 1.0: Molecular docking with deep learning"
   aftauthors: "Paul Francoeur, Rishal Aggarwal, Tomohide Masuda, Rocco Meli, Matthew Ragoza, Jocelyn Sunseri, David Koes"
   descr: "Journal of Cheminformatics"
   date: "June 2021"
-  paper: https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00522-2
+  paper: https://doi.org/10.1186/s13321-021-00522-2
   talk: https://acs.digitellinc.com/acs/sessions/25972/view
 
 - name: In situ classification of cell types in human kidney tissue using 3D nuclear staining
@@ -25,7 +38,7 @@
   aftauthors: "Dawson Dean, Daria Barwinska, Michael J Ferkowicz, Michael T Eadon, Katherine J Kelly, Kenneth W Dunn, Mohammad A Hasan, Tarek M El‐Achkar, Seth Winfree"
   descr: "Cytometry Part A"
   date: "Nov 2020"
-  paper: https://onlinelibrary.wiley.com/doi/abs/10.1002/cyto.a.24274
+  paper: https://doi.org/10.1002/cyto.a.24274
 
 - name: Comparison of Supervised Machine Learning and Probabilistic Approaches for Record Linkage
   descr: "AMIA Summit 2020 Podium Abstract- Accepted (Not presented due to COVID-19)"
