@@ -7,7 +7,8 @@
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3>
         </div>
-	<p class="project-desc">{{project.descr}}-{{project.date}}</p>
+	<div class="project-desc">{{project.descr}}</div><div class="project-desc-date">{{project.date}}</div>
+	<br style="clear:both;">
 	{% if project.befauthors or project.aftauthors %}
 	<p class="project-auth">{{project.befauthors}} <strong><u>Andrew McNutt</u></strong>, {{project.aftauthors}}</p> 
 	{% endif %}

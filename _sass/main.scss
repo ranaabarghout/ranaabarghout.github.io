@@ -600,7 +600,7 @@ a {
 
 .project {
   border-radius: 1rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   padding: 0.5rem 1rem;
 }
 
@@ -610,7 +610,7 @@ a {
 }
 
 .project .name-link-wrapper .links {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 0.3rem 0.2rem;
 }
 
@@ -622,6 +622,13 @@ a {
 .project-desc {
   line-height: 1rem;
   margin: 0.1rem auto;
+  float: left;
+}
+.project-desc-date {
+  line-height: 1rem;
+  margin-left: auto;
+  margin-right: 0;
+  float: right;
 }
 
 .project-stars-forks {
@@ -865,7 +872,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     > * {
-      width: 44%;
+      width: 94%;
     }
   }
 
@@ -912,7 +919,7 @@ a {
 
   .projects-wrapper {
     > * {
-      width: 45%;
+      width: 95%;
     }
   }
 }
@@ -942,7 +949,7 @@ a {
 
   .projects-wrapper {
     > * {
-      width: 46%;
+      width: 96%;
     }
   }
 }
