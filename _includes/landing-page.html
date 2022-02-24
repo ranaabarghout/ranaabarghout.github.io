@@ -101,6 +101,25 @@
           <span class="label">Twitter</span>
         </a>
       {% endif %}
+
+      {% if site.cv != null %}
+			<a class="social-link cv" aria-label="My CV" href="{{ "/assets/files/site.cv" | prepend: site.baseurl }}" style="line-height:1rem;">
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+							<use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/CV.svg#cv" | prepend: site.baseurl }}"></use>
+            </svg>
+          </div>
+          <span class="label">Curriculum Vitae</span>
+        </a>
+      {% endif %}
     </div>
+		<!-- <div class="scroll-down"> -->
+		<!-- 		<svg class="arrow" viewBox="0 0 24 24"> -->
+		<!-- 			<use  y="3" width="auto" height=".75" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/down-arrow.svg#das" | prepend: site.baseurl }}"></use> -->
+		<!-- 		</svg> -->
+		<!-- </div> -->
   </div>
 </div>

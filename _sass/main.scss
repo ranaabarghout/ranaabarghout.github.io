@@ -257,9 +257,25 @@ a {
   top: 40%;
 }
 
+.scroll-down {
+	font-size: 1.5rem;
+	top: 0px;
+	width: 100%;
+	color: $text-color;
+	position: relative;
+	line-height: 3rem;
+	height: 3rem;
+	margin: 0.25rem;
+		
+		.arrow {
+			fill: white;
+		}
+}
+
 .landing-icons {
   display: flex;
   justify-content: center;
+
 
   .social-link {
     color: $text-color;
@@ -324,6 +340,19 @@ a {
     }
   }
 
+  .cv:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorCV 1s linear forwards;
+    }
+    .social-svg {
+      fill: #088a66;
+    }
+    .label {
+			top: 1rem;
+    }
+	}
+
   .linkedin:hover {
     .circle {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
@@ -353,7 +382,7 @@ a {
       fill: #4286f5;
     }
     .label {
-	top: 1rem;
+			top: 1rem;
     }
   }
 
@@ -406,7 +435,14 @@ a {
       stroke: #1da1f2;
     }
   }
+
+  @keyframes colorCV {
+    to {
+      stroke: #088a66;
+    }
+  }
 }
+
 
 /* Skills Section */
 
@@ -732,6 +768,14 @@ a {
     }
   }
 
+	.profile{
+		.pic {
+			width: 70%;
+			height: auto;
+
+		}
+	}
+
   #skills {
     div[skill-weight="1"] {
       font-size: 1rem;
@@ -899,6 +943,14 @@ a {
     padding: 1rem 3rem;
   }
 
+	.profile{
+		.pic {
+			width: 30%;
+			height: auto;
+
+		}
+	}
+
   #skills .filter-button {
     width: 31.5%;
   }
@@ -928,6 +980,14 @@ a {
   .layout {
     padding: 5rem 5rem;
   }
+
+	.profile{
+		.pic {
+			width: auto;
+			height: 320px;
+
+		}
+	}
 
   #skills .filter-button {
     width: 31%;
