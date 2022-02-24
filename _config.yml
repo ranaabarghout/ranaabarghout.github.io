@@ -18,7 +18,7 @@ typing_text: Computational Biology PhD Candidate
 # email: Your E-Mail address for the email button.
 email: anm329@pitt.edu
 # Need something in the CV form, will always point to file at assets/files/CV_Resume.pdf
-cv: CV_Resume.pdf
+cv_filename: CV_Resume.pdf
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
@@ -36,7 +36,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-# about_me_description: I am a third year PhD Candidate in the <a href="http://www.compbio.cmu.edu/">Joint Carnegie Mellon/University of Pittsburgh program for Computational Biology</a>. I am working in <a href="https://bits.csb.pitt.edu/">Prof David Ryan Koes's</a> lab. I graduated from Purdue University in 2019 with a double major in Physics and Mathematics.
+# about_me_description: This is in _includes/aboutme.md
 
 # SKILLS SECTION
 # show_skills_card:
