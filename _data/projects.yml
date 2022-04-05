@@ -13,6 +13,12 @@
 #     - tag: AngularJS
 #     - tag: Node
 #
+- name: "Improving &#120491;&#120491;G Predictions with a Multitask Convolutional Siamese Network"
+  aftauthors: "David Ryan Koes"
+  descr: "Journal of Chemical and Information Modeling"
+  date: "April 2022"
+  paper: https://doi.org/10.1021/acs.jcim.1c01497
+
 - name: "Integrated cytometry with machine learning applied to high-content imaging of human kidney tissue for in-situ cell classification and neighborhood analysis"
   befauthors: "Seth Winfree,"
   aftauthors: "Suraj Khochare, Tyler J. Borgard, Daria Barwinska, Angela R. Sabo, Michael J. Ferkowicz, James C. Williams Jr, James E. Lingeman, Connor J Gulbronson, Katherine J. Kelly, Timothy A. Sutton, Pierre C. Dagher, Michael T. Eadon, Kenneth W. Dunn and Tarek M. El-Achkar"
