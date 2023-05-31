@@ -5,7 +5,7 @@
 
 /* Variables */
 
-$small-screen: 15em !default;
+$small-screen: 48em !default;
 $medium-screen: 62em !default;
 $large-screen: 75em !default;
 $font-family: "Raleway", sans-serif;
@@ -739,6 +739,40 @@ a {
 }
 
 /* Media Queries */
+@media only screen and (max-width: $small-screen){
+  .landing-title h1 {
+    font-size: 2.5rem;
+  }
+
+	.profile{
+		.pic {
+			width: 100%;
+			height: auto;
+
+		}
+	}
+	.timeline-wrapper{
+    .direction-r {
+      float: none;
+      text-align: center;
+      width: 14rem;
+
+      .desc {
+        text-align: center;
+      }
+    }
+    .direction-l {
+      float: none;
+      text-align: center;
+      width: 14rem;
+
+      .desc {
+        text-align: center;
+      }
+    }
+	}
+}
+
 
 @media only screen and (min-width: $small-screen) {
   .layout {
@@ -755,7 +789,7 @@ a {
   }
 
   .landing-title h1 {
-    font-size: 2.5rem;
+    font-size: 3em;
   }
 
   .landing-icons .social-link {
@@ -770,7 +804,7 @@ a {
 
 	.profile{
 		.pic {
-			width: 100%;
+			width: 70%;
 			height: auto;
 
 		}
@@ -849,11 +883,7 @@ a {
   .timeline-wrapper {
     .timeline {
       margin: 0 auto;
-      width: 13rem;
-    }
-
-    .timeline li:before {
-			left: 30%;
+      width: 39.25rem;
     }
 
     .timeline li:after {
@@ -863,14 +893,14 @@ a {
     }
 
     .direction-l {
-      float: center;
-      text-align: center;
-      width: 10rem;
+      float: left;
+      text-align: right;
+      width: 18.5rem;
 
       .hexagon {
         left: auto;
         right: -1.6rem;
-        top: 0.4rem;
+        top: -0.5rem;
       }
 
       .flag-wrapper {
@@ -884,19 +914,19 @@ a {
       }
 
       .desc {
-        text-align: center;
+        text-align: right;
       }
     }
 
     .direction-r {
-      float: center;
-      text-align: center;
-      width: 10rem;
+      float: right;
+      text-align: left;
+      width: 18.5rem;
 
       .hexagon {
         left: -1.6rem;
         right: auto;
-        top: 0.4rem;
+        top: -0.5rem;
       }
 
       .flag-wrapper {
