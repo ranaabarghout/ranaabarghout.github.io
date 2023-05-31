@@ -5,7 +5,7 @@
 
 /* Variables */
 
-$small-screen: 48em !default;
+$small-screen: 15em !default;
 $medium-screen: 62em !default;
 $large-screen: 75em !default;
 $font-family: "Raleway", sans-serif;
@@ -755,7 +755,7 @@ a {
   }
 
   .landing-title h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .landing-icons .social-link {
@@ -770,7 +770,7 @@ a {
 
 	.profile{
 		.pic {
-			width: 70%;
+			width: 100%;
 			height: auto;
 
 		}
@@ -849,7 +849,11 @@ a {
   .timeline-wrapper {
     .timeline {
       margin: 0 auto;
-      width: 39.25rem;
+      width: 13rem;
+    }
+
+    .timeline li:before {
+			left: 30%;
     }
 
     .timeline li:after {
@@ -859,9 +863,9 @@ a {
     }
 
     .direction-l {
-      float: left;
-      text-align: right;
-      width: 18.5rem;
+      float: center;
+      text-align: center;
+      width: 10rem;
 
       .hexagon {
         left: auto;
@@ -880,14 +884,14 @@ a {
       }
 
       .desc {
-        text-align: right;
+        text-align: center;
       }
     }
 
     .direction-r {
-      float: right;
-      text-align: left;
-      width: 18.5rem;
+      float: center;
+      text-align: center;
+      width: 10rem;
 
       .hexagon {
         left: -1.6rem;
