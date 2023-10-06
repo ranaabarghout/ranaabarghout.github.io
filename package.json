@@ -21,7 +21,7 @@
     "gulp-uglify": "^3.0.2",
     "js-yaml": "^3.14.0",
     "lodash": "^4.17.21",
-    "postcss": "^8.0.0",
+    "postcss": "^8.4.31",
     "yarn-deduplicate": "^3.0.0"
   },
   "resolutions": {
