@@ -12,7 +12,18 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: "Open-ComBind: Harnessing unlabeled data for improved binding pose prediction"
+  aftauthors: "David Ryan Koes"
+  descr: "ChemRxiv"
+  date: "Sep 2023"
+  paper: https://doi.org/10.26434/chemrxiv-2023-xjl84
 #
+- name: "Conformer Generation for Structure-Based Drug Design: How Many and How Good?"
+  aftauthors: "Fatimah Bisiriyu, Sophia Song, Ananya Vyas, Geoffrey R. Hutchison, David Ryan Koes"
+  descr: "Journal of Chemical and Information Modeling"
+  date: "October 2023"
+  paper: https://doi.org/10.1021/acs.jcim.3c01245
+
 - name: "Improving &#120491;&#120491;G Predictions with a Multitask Convolutional Siamese Network"
   aftauthors: "David Ryan Koes"
   descr: "Journal of Chemical and Information Modeling"
@@ -21,7 +32,7 @@
 
 - name: "Integrated cytometry with machine learning applied to high-content imaging of human kidney tissue for in-situ cell classification and neighborhood analysis"
   befauthors: "Seth Winfree,"
-  aftauthors: "Suraj Khochare, Tyler J. Borgard, Daria Barwinska, Angela R. Sabo, Michael J. Ferkowicz, James C. Williams Jr, James E. Lingeman, Connor J Gulbronson, Katherine J. Kelly, Timothy A. Sutton, Pierre C. Dagher, Michael T. Eadon, Kenneth W. Dunn and Tarek M. El-Achkar"
+  aftauthors: "Suraj Khochare, Tyler J. Borgard, Daria Barwinska, Angela R. Sabo, Michael J. Ferkowicz, James C. Williams Jr, James E. Lingeman, Connor J Gulbronson, Katherine J. Kelly, Timothy A. Sutton, Pierre C. Dagher, Michael T. Eadon, Kenneth W. Dunn, Tarek M. El-Achkar"
   descr: "bioRxiv"
   date: "Jan 2022"
   paper: https://doi.org/10.1101/2021.12.27.474025
