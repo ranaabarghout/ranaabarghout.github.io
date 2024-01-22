@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ranaabarghout
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ranaabarghout/Protein_Kinetics_Data_Scrapping
+  - ranaabarghout/Generative_Protein_Design_Datasets
+  - Zhiqing-Xu/Protein_Kinetics_Data_Scrapping
+  - LMSE/KinMod
