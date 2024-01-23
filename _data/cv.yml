@@ -61,9 +61,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://pressbooks.bccampus.ca/chbe220/">Foundations of Chemical and Biological Engineering I</a>
+      year: 2020
+      description: An open-source textbook covering introductory chemical and biological engineering topics for early career engineering students.
 
 - title: Honors and Awards
   type: time_table
