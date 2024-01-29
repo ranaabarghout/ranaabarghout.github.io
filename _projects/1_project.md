@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: KinMod: Metabolism Regulation Database
+description: KinMod is a tool that can be used for investigating large-scale metabolism and the regulatory mechanisms involved. 
+# img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
