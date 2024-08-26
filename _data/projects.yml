@@ -12,11 +12,23 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: "Ultra-High-Throughput Virtual Screening for Antimicrobials"
+  befauthors: "Caleb N. Ellington, Abhinav K. Adduri"
+  aftauthors: "Monica T. Dayao, Hosein Mohimani, David R. Koes, Eric P. Xing"
+  descr: "Machine Learning in Computational Biology (MLCB) (Poster)"
+  date: "Sep 2024"
+
+- name: "Condensing Molecular Docking CNNs via Knowledge Distillation"
+  aftauthors: "Yanjing Li, Paul Francoeur, David Ryan Koes"
+  descr: "ChemRxiv"
+  date: "March 2024"
+  paper: https://doi.org/10.26434/chemrxiv-2024-0jh8g
+
 - name: "Open-ComBind: Harnessing unlabeled data for improved binding pose prediction"
   aftauthors: "David Ryan Koes"
-  descr: "ChemRxiv"
-  date: "Sep 2023"
-  paper: https://doi.org/10.26434/chemrxiv-2023-xjl84
+  descr: "Journal of Computer-Aided Molecular Design"
+  date: "Feb 2024"
+  paper: https://doi.org/10.1016/j.bpj.2023.11.1206
 #
 - name: "Conformer Generation for Structure-Based Drug Design: How Many and How Good?"
   aftauthors: "Fatimah Bisiriyu, Sophia Song, Ananya Vyas, Geoffrey R. Hutchison, David Ryan Koes"

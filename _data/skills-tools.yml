@@ -6,13 +6,13 @@
 #   weight: 5
 
 - name: Git
-  weight: 2
+  weight: 3
 
 - name: Bash
   weight: 4
 
 - name: Slurm
-  weight: 3
+  weight: 4
 
 - name: Pytorch 
   weight: 4
@@ -24,4 +24,13 @@
   weight: 5
 
 - name: Amber
-  weight: 3
+  weight: 2
+
+- name: RDKit
+  weight: 5
+
+- name : Hugging Face
+  weight: 2
+
+- name: OpenMM
+  weight: 2
