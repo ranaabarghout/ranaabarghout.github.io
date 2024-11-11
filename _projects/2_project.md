@@ -43,4 +43,3 @@ This project provides a robust framework for compound-protein interaction predic
 
 **GitHub Repository**  
 Will be posted once the publication is out! Please stay tuned. 
-#[Link to Project Repository](https://github.com/YourUsername/Compound-Protein-Interaction-Prediction)
