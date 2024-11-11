@@ -8,7 +8,7 @@ category: work
 giscus_comments: true
 ---
 
-# Compound-Protein Interaction Prediction
+## Compound-Protein Interaction Prediction
 
 **Overview**  
 This project focuses on predicting interactions between compounds and proteins using advanced machine learning models. By leveraging protein language models and custom embedding pooling techniques, we enhance accuracy in function prediction tasks over traditional methods.
