@@ -2,7 +2,7 @@
 layout: page
 title: "KinMod: Metabolism Regulation Database"
 description: "KinMod is a tool that can be used for investigating large-scale metabolism and the regulatory mechanisms involved."
-img: "assets/img/kinmod_overview.jpg"  # Replace with the actual path to the image if available
+img: "assets/img/kinmod_image1.jpeg"  # Replace with the actual path to the image if available
 importance: 1
 category: work
 related_publications: true
@@ -29,13 +29,13 @@ For a more detailed description of KinMod, refer to our publication:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/kinmod_image1.jpg" title="Data Integration Process" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/kinmod_image1.jpeg" title="Data Integration Process" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/kinmod_image2.jpg" title="KinMod Data Summary" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/kinmod_image2.jpeg" title="KinMod Data Summary" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/kinmod_image3.jpg" title="Customizable Search" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/kinmod_image3.png" title="Customizable Search" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
