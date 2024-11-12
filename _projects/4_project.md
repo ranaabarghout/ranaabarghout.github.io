@@ -7,7 +7,7 @@ importance: 4
 category: fun
 ---
 
-# Explorations in Deep Learning
+## Other DL Projects I've Worked On!
 
 Outside of my primary research, I’ve worked on a variety of deep learning projects that span computer vision, generative models, natural language processing, and predictive modeling in drug discovery. These projects allowed me to experiment with different architectures and techniques while exploring the capabilities of deep learning in unique applications.
 
