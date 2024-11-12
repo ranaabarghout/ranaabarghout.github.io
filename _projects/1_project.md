@@ -2,7 +2,7 @@
 layout: page
 title: "KinMod: Metabolism Regulation Database"
 description: "KinMod is a tool that can be used for investigating large-scale metabolism and the regulatory mechanisms involved."
-img: "assets/img/kinmod_image1.jpeg"  # Replace with the actual path to the image if available
+img: "assets/img/kinmod_overview.jpeg"  # Replace with the actual path to the image if available
 importance: 1
 category: work
 related_publications: true
