@@ -1,81 +1,44 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: "kinGEMs: Enzyme-Constrained Genome-Scale Models Pipeline"
+description: "A pipeline for constructing enzyme-constrained genome-scale models with deep learning predicted kinetic parameters."
+img: assets/img/kingems_overview.png  # Replace with an image representing the kinGEMs pipeline if available
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## kinGEMs: Enzyme-Constrained Genome-Scale Models Pipeline
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Overview**  
+The kinGEMs pipeline represents a breakthrough in genome-scale modeling by integrating enzyme constraints with deep learning-predicted kinetic parameters, enhancing the biological realism of GEMs. KinGEMs constructs enzyme-constrained genome-scale models (ecGEMs) using CPI-Pred, a custom deep learning model trained to predict kcat, KI, and KM values for enzyme-substrate pairs.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Key Features**  
+- **Advanced Constraint Optimization**: Integrates enzyme turnover constraints directly into reaction fluxes with a flexible linear optimization framework. This setup allows for potential future incorporation of non-linear constraints, such as substrate saturation and allosteric regulation.
+- **Deep Learning-Driven Kinetic Predictions**: CPI-Pred predicts kinetic parameters for enzyme-substrate pairs using protein sequence and substrate data extracted from the input GEM, creating organism-specific ecGEMs. This includes predictions for kcat, KI, and KM values, trained on one of the largest kinetic parameter datasets (~45k kcat, ~85k KM, and ~77k KI datapoints).
+- **Application Across Diverse Organisms**: kinGEMs has been validated with model organisms like *E. coli* and *S. cerevisiae* and applied to non-conventional microbes, including *K. lactis*.
+
+**Significance**  
+This project addresses a major bottleneck in GEM construction by providing an automated, scalable approach for incorporating enzyme constraints and kinetic parameters. kinGEMs bridges the gap between computational predictions and biological accuracy, laying the groundwork for more complex regulatory mechanisms in GEMs.
+
+**Project Components**  
+- **CPI-Pred Model**: Trained on extensive kinetic data, it offers comprehensive kinetic predictions, enabling researchers to build accurate ecGEMs for various organisms. Read more about this in my other projects! 
+- **Optimization Framework**: kinGEMs uses an advanced framework that allows linear and non-linear constraint optimization, improving model flexibility and precision.
+- **Organism-Specific kcat Tuning**: A unique feature that tunes kcat values to fit organism-specific constraints and experimental conditions, enhancing the robustness of the ecGEMs.
+
+**Further Applications**  
+kinGEMs is versatile and adaptable, supporting advancements in metabolic engineering and synthetic biology. By generating ecGEMs with organism-specific kinetic parameters, kinGEMs enhances predictive accuracy and aids in modeling complex cellular behaviors.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/kingems_image1.png" title="kinGEMs Workflow Overview" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/kingems_image2.jpg" title="Simulated Annealing for kcat Tuning" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Above: kinGEMs pipeline, and organism-specific kcat tuning for accurate ecGEMs.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**GitHub Repository**  
+Will be posted once the paper is published!
