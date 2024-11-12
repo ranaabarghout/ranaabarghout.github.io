@@ -1,80 +1,48 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: "Explorations in Deep Learning"
+description: "A collection of deep learning projects exploring computer vision, generative models, natural language processing, and drug discovery."
+img: assets/img/deep_learning_explorations.jpg  # Replace with an image that represents your deep learning projects if available
+importance: 4
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Explorations in Deep Learning
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Outside of my primary research, I’ve worked on a variety of deep learning projects that span computer vision, generative models, natural language processing, and predictive modeling in drug discovery. These projects allowed me to experiment with different architectures and techniques while exploring the capabilities of deep learning in unique applications.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## 1. CNNs for American Sign Language Recognition
+I developed a convolutional neural network (CNN) to classify hand gestures representing American Sign Language (ASL). This project demonstrated the ability of CNNs to identify complex patterns and shapes in images, contributing to more accessible communication tools.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **GitHub Repository**: [CNNs for American Sign Language Recognition](https://github.com/ranaabarghout/Random_DeepLearning/tree/main/CNNs%20for%20American%20Sign%20Language%20Recognition)
+- **Notebook**: [Hand Gesture Recognition](https://github.com/ranaabarghout/Random_DeepLearning/blob/main/CNNs%20for%20American%20Sign%20Language%20Recognition/LAB_2_Hand_Gesture_Recognition.ipynb)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+---
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## 2. GANs for Generating Horse Photos
+In this project, I used Generative Adversarial Networks (GANs) to create realistic images of horses. It was a fascinating experiment in unsupervised learning and an opportunity to delve into the nuances of GAN architecture for generating visually plausible data.
 
-{% raw %}
+- **GitHub Repository**: [GANs for Horse Photos](https://github.com/ranaabarghout/Random_DeepLearning/tree/main/GANs%20for%20Horse%20Photos)
+- **Notebook**: [Generating Horse Photos](https://github.com/ranaabarghout/Random_DeepLearning/blob/main/GANs%20for%20Horse%20Photos/LAB_3_Generating_Data-Submission.ipynb)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+---
 
-{% endraw %}
+## 3. NLP for Spam Detection
+For this project, I worked on a Natural Language Processing (NLP) model to detect spam messages. Using sequential data techniques, this model categorizes messages with a high degree of accuracy, providing a practical application of NLP in filtering communication channels.
+
+- **GitHub Repository**: [NLP for Spam Detection](https://github.com/ranaabarghout/Random_DeepLearning/tree/main/NLP%20for%20Spam%20Detection)
+- **Notebook**: [Spam Detection](https://github.com/ranaabarghout/Random_DeepLearning/blob/main/NLP%20for%20Spam%20Detection/LAB_4_Sequential_Data.ipynb)
+
+---
+
+## 4. Drug Discovery Hackathon: Predicting Kinase Selectivity
+In Valence Labs' Machine Learning for Drug Discovery hackathon, I developed a model to predict kinase selectivity, specifically working on the V560G mutant. Competing alone, I placed 8th for this mutant, a rewarding outcome in a field where most participants worked in teams. This project was an exciting application of machine learning in drug discovery.
+
+- **GitHub Repository**: [MLDD Hackathon](https://github.com/ranaabarghout/MLDD_Hackathon)
+- **Leaderboard**: [Polaris Hub - PKIS1 KIT WT MUT C-1](https://polarishub.io/benchmarks/polaris/pkis1-kit-wt-mut-c-1)
+
+---
+
+This collection of projects reflects my enthusiasm for exploring diverse aspects of deep learning beyond my core research. From computer vision and generative models to NLP and drug discovery, these projects have broadened my skill set and deepened my appreciation for the versatility of deep learning.
