@@ -22,6 +22,11 @@
             Link to Talk
           </a>
         {% endif %}
+        {% if project.poster %}
+          <a class="highlight-link" href="{{project.poster}}" target="_blank" rel="noreferrer">
+            Link to Poster
+          </a>
+        {% endif %}
         {% if project.tags %}
           <div class="tag-wrapper">
             {% for tag in project.tags %}

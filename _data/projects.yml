@@ -12,8 +12,22 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: "Duvelisib is a novel NFAT inhibitor that mitigates adalimumab-induced immunogenicity"
+  befauthors: "Aboli Bhingarkar, Yuyin Wang, Keito Hoshitsuki, Katherine Marie Eichinger, Sanjay Rathod, Yin Zhu, He Lyu,"
+  aftauthors: "Larry W Moreland, Lee Mcdermott, David Ryan Koes, Christian Fernandez"
+  descr: "Frontiers in Pharmacology"
+  date: "Jan 2025"
+  paper: https://doi.org/10.3389/fphar.2024.1397995
+
+- name: "SPRINT Enables Interpretable and Ultra-Fast Virtual Screening against Thousands of Proteomes"
+  aftauthors: "Abhinav K. Adduri, Caleb N. Ellington, Monica T. Dayao, Hosein Mohimani, Eric P. Xing, David R. Koes"
+  descr: "Machine Learning for Structural Biology (MLSB) Workshop at NeurIPS (Poster)"
+  date: "Dec 2024"
+  poster: "files/SPRINT_MLSB_Poster.pdf"
+  paper: "https://doi.org/10.48550/arXiv.2411.15418"
+
 - name: "Ultra-High-Throughput Virtual Screening for Antimicrobials"
-  befauthors: "Caleb N. Ellington, Abhinav K. Adduri"
+  befauthors: "Caleb N. Ellington, Abhinav K. Adduri,"
   aftauthors: "Monica T. Dayao, Hosein Mohimani, David R. Koes, Eric P. Xing"
   descr: "Machine Learning in Computational Biology (MLCB) (Poster)"
   date: "Sep 2024"
