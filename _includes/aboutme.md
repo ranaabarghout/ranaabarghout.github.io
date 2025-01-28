@@ -1,4 +1,6 @@
-I am a 6th year PhD student in the <a href="http://www.compbio.cmu.edu/">Joint Carnegie Mellon/University of Pittsburgh program for Computational Biology</a>. I am working in <a href="https://bits.csb.pitt.edu/">Prof David Ryan Koes's</a> lab. My research focuses on enhancing deep learning models for drug discovery. 
+I am a recent PhD graduate of the <a href="http://www.compbio.cmu.edu/">Joint Carnegie Mellon/University of Pittsburgh PhD program for Computational Biology</a>, where I worked under the guidance of <a href="https://bits.csb.pitt.edu/">Prof. David Ryan Koes</a>. My research expertise lies in enhancing the representations of protein-ligand interactions with a focus on structure-based methods. This has involved exploring various computational drug discovery approaches, including virtual screening, docking, and binding affinity prediction.
+
+I am passionate about leveraging deep learning and computational methods to advance the drug discovery pipeline, as demonstrated by my collaboration with <a href="https://www.pharmacy.pitt.edu/people/christian-fernandez">Christian Fernandez's Lab at the University of Pittsburgh</a>, where we discovered a novel inhibitor of the Nuclear Factor of Activated T-Cells 2 (NFATC2) (published in <a href="https://doi.org/10.3389/fphar.2024.1397995">Frontiers in Pharmacology</a>).
 
 ### Research Interests:
 * Drug Discovery

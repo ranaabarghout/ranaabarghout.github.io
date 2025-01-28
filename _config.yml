@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Andrew McNutt
 # description: This will be meta HTML tag content. This can be ignored.
-description: Computational Biology PhD Candidate at CMU-Pitt
+description: Computational Biology PhD
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -14,7 +14,7 @@ baseurl: ""
 username: Andrew McNutt
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Computational Biology PhD Candidate
+typing_text: Computational Biology PhD
 # email: Your E-Mail address for the email button.
 email: anm329@pitt.edu
 # Need something in the CV form, will always point to file at assets/files/CV_Resume.pdf

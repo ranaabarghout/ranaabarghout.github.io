@@ -14,7 +14,7 @@
 - name: Slurm
   weight: 4
 
-- name: Pytorch 
+- name: PyTorch 
   weight: 4
 
 - name: NumPy
@@ -29,8 +29,11 @@
 - name: RDKit
   weight: 5
 
-- name : Hugging Face
+- name : HuggingFace
   weight: 2
 
 - name: OpenMM
   weight: 2
+
+- name: AlphaFold
+  weight: 4
