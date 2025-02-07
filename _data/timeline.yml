@@ -19,8 +19,14 @@
 
 - title: University of Pittsburgh/Carnegie Mellon
   title-url: http://compbio.cmu.edu/
-  date: Aug 2019 - Present
+  date: Aug 2019 - Jan 2025
   subtitle: PhD Student in Koes Lab
+  tags:
+    - tag: Structure-Based Drug Design
+    - tag: Deep Learning
+    - tag: Virtual Screening
+    - tag: Affinity Prediction
+    - tag: Molecular Docking
   timeline-side: left
 
 - title: Regenstrief Institute
@@ -39,7 +45,6 @@
   tags:
     - tag: Clustering
     - tag: Dimensionality Reduction
-    - tag: Github
   timeline-side: right
 
 - title: IUPUI Division of Nephrology
