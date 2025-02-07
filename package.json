@@ -9,11 +9,11 @@
   "author": "Long Do",
   "license": "MIT",
   "dependencies": {
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^3.0.3",
     "css-what": "^6.1.0",
     "cssnano": "^5.0.6",
     "debug": "^4.3.1",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-concat": "^2.6.1",
     "gulp-postcss": "9.0.0",
@@ -32,7 +32,9 @@
     "xmlhttprequest-ssl": "^1.6.2",
     "trim-newlines": "^3.0.1",
     "css-what": "^6.1.0",
-    "glob-parent": "^6.0.0"
+    "glob-parent": "^6.0.0",
+    "ws": ">=8.17.1",
+    "braces": ">3.0.2"
   },
   "devDependencies": {
     "gulp-sass": "^5.1.0",
