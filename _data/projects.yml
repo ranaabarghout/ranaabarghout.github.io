@@ -12,6 +12,19 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: "GNINA 1.3: the next increment in molecular docking with deep learning"
+  aftauthors: "Yanjing Li, Rocco Meli, Rishal Aggarwal, David Ryan Koes"
+  descr: "Journal of Cheminformatics"
+  date: "Mar 2025"
+  paper: https://doi.org/10.1186/s13321-025-00973-x
+
+- name: "Interpretable adenylation domain specificity prediction using protein language models"
+  befauthors: "Abhinav K. Adduri"
+  aftauthors: "Caleb Ellington, Krish Suraparaju, Nan Fang, Donghui Yan, Benjamin Krummenacher, Sitong Li, Camila Bodden, Eric Xing, Bahar Behsaz, David Ryan Koes, Hosein Mohimani"
+  descr: "bioRxiv"
+  date: "Jan 2025"
+  paper: https://doi.org/10.1101/2025.01.13.632878
+
 - name: "Duvelisib is a novel NFAT inhibitor that mitigates adalimumab-induced immunogenicity"
   befauthors: "Aboli Bhingarkar, Yuyin Wang, Keito Hoshitsuki, Katherine Marie Eichinger, Sanjay Rathod, Yin Zhu, He Lyu,"
   aftauthors: "Larry W Moreland, Lee Mcdermott, David Ryan Koes, Christian Fernandez"
@@ -24,7 +37,7 @@
   descr: "Machine Learning for Structural Biology (MLSB) Workshop at NeurIPS (Poster)"
   date: "Dec 2024"
   poster: "files/SPRINT_MLSB_Poster.pdf"
-  paper: "https://doi.org/10.48550/arXiv.2411.15418"
+  paper: https://doi.org/10.48550/arXiv.2411.15418v1
 
 - name: "Ultra-High-Throughput Virtual Screening for Antimicrobials"
   befauthors: "Caleb N. Ellington, Abhinav K. Adduri,"
