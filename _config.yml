@@ -161,29 +161,37 @@ external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
 
-# -----------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 # Collections
-# -----------------------------------------------------------------------------
-
+# -------------------------------------------------------------------------------
 collections:
- # news:
-  #  defaults:
-   #   layout: post
-   # output: true
-   # permalink: /news/:path/
+  news:
+    output: true
+    # use the same “post” layout as your blog, or create a custom one
+    defaults:
+      - scope:
+          path: ""
+          type: news
+        values:
+          layout: post
+    permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
 
-#announcements:
-#  enabled: true
-#  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#  limit: 5 # leave blank to include all the news in the `_news` folder
+# -------------------------------------------------------------------------------
+# Homepage panels: News & Latest Blog Posts
+# -------------------------------------------------------------------------------
+announcements:
+  enabled: true
+  scrollable: true   # vertical scrollbar if >3 items
+  limit: 3           # show only the 3 latest on the home page
 
-#latest_posts:
-#  enabled: true
-#  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-#  limit: 3 # leave blank to include all the blog posts
+latest_posts:
+  enabled: true
+  scrollable: false
+  limit: 3           # show only the 3 latest blog posts
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
