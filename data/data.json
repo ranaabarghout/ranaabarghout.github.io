@@ -1,0 +1,165 @@
+{
+  "basics": {
+    "name": "Rana A. Barghout",
+    "label": "PhD student",
+    "email": "rana.barghout@mail.utoronto.ca",
+    "location": "Toronto, Ontario, Canada",
+    "summary": "Hello, I’m Rana, a PhD student at the University of Toronto, currently immersed in the world of enzyme modeling and design in the context of metabolic networks. My research revolves around combining machine learning with biochemical engineering to enhance genome‑scale modeling and computational protein engineering. I’m passionate about pushing the boundaries of metabolic engineering by leveraging deep learning models to predict kinetic parameters and adapt genome‑scale models in large‑scale optimization frameworks.",
+    "profiles": [
+      { "network": "LinkedIn", "username": "Rana A. Barghout", "url": "https://www.linkedin.com/in/ranaabarghout/" },
+      { "network": "GitHub", "username": "ranaabarghout", "url": "https://github.com/ranaabarghout" },
+      { "network": "Twitter", "username": "@rana_barg", "url": "https://twitter.com/rana_barg" }
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of Toronto, St. George",
+      "degree": "PhD in Chemical Engineering",
+      "location": "Toronto, ON",
+      "startDate": "Sep 2021",
+      "endDate": "Present",
+      "description": "Research in metabolic engineering and machine learning. Focused on integrating deep learning techniques with biochemical models to improve enzyme design and genome‑scale metabolic simulations."
+    },
+    {
+      "institution": "University of British Columbia",
+      "degree": "Bachelor of Applied Science in Chemical and Biological Engineering",
+      "location": "Vancouver, BC",
+      "startDate": "Sep 2016",
+      "endDate": "May 2021",
+      "description": "Specialized in chemical and biological engineering with honours. Developed a strong foundation in biochemical processes, data analysis and engineering design."
+    }
+  ],
+  "volunteer": [
+    {
+      "position": "HR/Recruitment Team Member",
+      "organization": "BridgeTO Youth",
+      "startDate": "Sep 2023",
+      "endDate": "Present",
+      "summary": "Work on streamlining the volunteer recruitment process and supporting programs for under‑represented and underserved youth across Toronto."
+    },
+    {
+      "position": "Vice President Information",
+      "organization": "Graduate Society of Women Engineers",
+      "startDate": "Jul 2023",
+      "endDate": "Present",
+      "summary": "Assist the society’s president with administrative tasks, plan events and build connections across Toronto centred around entrepreneurship, charity and professional development."
+    },
+    {
+      "position": "Graduate Student Mentorship Program Coordinator",
+      "organization": "Chemical Engineering Graduate Student Association",
+      "startDate": "Jul 2022",
+      "endDate": "Sep 2023",
+      "summary": "Coordinated mentorship groups for incoming graduate students in the department, pairing them with senior graduate students and organizing events to facilitate community building."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Rein Otson Memorial Graduate Scholarship",
+      "awarder": "University of Toronto Department of Chemical Engineering & Applied Chemistry",
+      "date": "2022–23",
+      "summary": "Awarded to outstanding international students on the basis of academic merit."
+    },
+    {
+      "title": "MAX Scholarship in Science and Engineering",
+      "awarder": "MAX Scholars",
+      "date": "Aug 2022",
+      "summary": "Awarded to science and engineering students demonstrating high academic achievement and contribution to the community."
+    },
+    {
+      "title": "UBC International Community Achievement Award",
+      "awarder": "University of British Columbia",
+      "date": "Dec 2020",
+      "summary": "Recognized for leadership in community service, international engagement and promotion of diversity."
+    }
+  ],
+  "skills": [
+    "Python", "Machine Learning", "Deep Learning", "Kinetic Modeling", "Data Analysis", "Genome‑Scale Modeling", "Public Speaking"
+  ],
+  "languages": ["English", "Arabic"],
+  "interests": [
+    "Metabolic engineering", "Deep learning", "Synthetic biology", "Computational biology", "Outreach & mentoring"
+  ],
+  "publications": [
+    {
+      "title": "Advances in Generative Modeling Methods and Datasets to Design Novel Enzymes for Renewable Chemicals and Fuels",
+      "authors": "Rana A. Barghout, Zhiqing Xu, Siddharth Betala, Radhakrishnan Mahadevan",
+      "journal": "Current Opinion in Biotechnology",
+      "date": "Dec 2023",
+      "summary": "This review summarizes state‑of‑the‑art generative models for protein design and how they can be applied to bioenergy applications. It discusses underlying architectures, training strategies and the importance of high‑quality datasets for training and evaluating generative models. The paper also highlights the potential of applying generative models to strain design for bioenergy production.",
+      "url": "https://doi.org/10.1016/j.copbio.2023.103091"
+    },
+    {
+      "title": "KinMod database: a tool for investigating metabolic regulation",
+      "authors": "Kiandokht Haddadi, Rana A. Barghout, Radhakrishnan Mahadevan",
+      "journal": "Database (Oxford)",
+      "date": "Jan 2022",
+      "summary": "This article introduces the KinMod database, which catalogs over two million data points on enzyme regulation across 9,814 organisms. KinMod employs a hierarchical data structure to map kinetic parameters to proteins and regulatory interactions, facilitating machine learning approaches for parameter estimation and enabling comprehensive metabolic network analysis.",
+      "url": "https://academic.oup.com/database/article/doi/10.1093/database/baac009"
+    },
+    {
+      "title": "Foundations of Chemical and Biological Engineering I",
+      "authors": "Jonathan Verret, Rosie Qiao, Rana A. Barghout",
+      "journal": "Course Workbook",
+      "date": "Aug 2020",
+      "summary": "A workbook developed to accompany the Foundations of Chemical and Biological Engineering I course, providing students with practice problems and step‑by‑step explanations.",
+      "url": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "KinMod: Metabolism Regulation Database",
+      "category": "Work",
+      "description": "An open‑access database created to catalogue and analyze regulatory interactions in metabolic networks. It aggregates enzyme regulation data across various organisms and provides customizable search options for researchers.",
+      "image": "assets/images/section-background.png",
+      "url": "https://lmse.utoronto.ca/kinmod/",
+      "repo": "https://github.com/LMSE/KinMod"
+    },
+    {
+      "name": "Compound‑Protein Interaction Prediction",
+      "category": "Work",
+      "description": "A deep learning model that predicts compound‑protein interactions using improved embedding techniques and transformer‑inspired methods. The project focuses on enhancing prediction accuracy and interpretability for drug discovery applications.",
+      "image": "assets/images/section-background.png",
+      "url": "",
+      "repo": ""
+    },
+    {
+      "name": "kinGEMs: Enzyme‑Constrained Genome‑Scale Models Pipeline",
+      "category": "Work",
+      "description": "A computational pipeline for constructing enzyme‑constrained genome‑scale metabolic models using deep learning predicted kinetic parameters. It automates model construction and provides tools for analyzing metabolic capabilities.",
+      "image": "assets/images/section-background.png",
+      "url": "",
+      "repo": ""
+    },
+    {
+      "name": "Explorations in Deep Learning",
+      "category": "Fun",
+      "description": "A collection of deep learning experiments covering computer vision, generative models, natural language processing and drug discovery. These projects explore cutting‑edge neural network architectures and training techniques.",
+      "image": "assets/images/section-background.png",
+      "url": "",
+      "repo": ""
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "Using AI to Accelerate Metabolic Engineering",
+      "date": "Jul 2024",
+      "summary": "A look into how artificial intelligence can streamline the design of metabolic pathways, with examples from recent research.",
+      "url": "",
+      "tag": "research"
+    },
+    {
+      "title": "Deep Learning for Protein Design: An Introduction",
+      "date": "May 2024",
+      "summary": "An accessible overview of deep learning approaches to protein design and why these methods are revolutionizing biotechnology.",
+      "url": "",
+      "tag": "education"
+    },
+    {
+      "title": "Building Community Through STEM Outreach",
+      "date": "Mar 2024",
+      "summary": "Reflections on volunteering with BridgeTO Youth and the importance of mentorship in science, technology, engineering and mathematics.",
+      "url": "",
+      "tag": "outreach"
+    }
+  ]
+}
