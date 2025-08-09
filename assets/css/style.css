@@ -3,37 +3,49 @@
  * Defines colour palettes, typography and layout helpers.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Fira+Sans:wght@400;600&display=swap');
+
 :root {
   /* Light theme */
   --bg: #ffffff;
-  --bg-secondary: #f6f7f9;
-  --text: #343a40;
-  --text-muted: #6c757d;
-  --primary: #4a90e2;
-  --secondary: #6c757d;
-  --info: #0dcaf0;
-  --success: #28a745;
-  --light: #f8f9fa;
+  --bg-secondary: #f7f9f7;
+  --text: #374235;
+  --text-muted: #6f7a68;
+  /* Sage green palette */
+  --primary: #6c8e47;
+  --secondary: #9ab77a;
+  --info: #73a580;
+  --success: #5f8c52;
+  --light: #eef3ed;
+  /* Overlay colour for hero background */
+  --overlay-color: rgba(0, 0, 0, 0.55);
+  /* Body font */
+  --font-body: 'Inter', sans-serif;
+  /* Override Bootstrap primary */
+  --bs-primary: var(--primary);
 }
 
 body.dark-mode {
   /* Dark theme overrides */
-  --bg: #121212;
-  --bg-secondary: #1e1e1e;
-  --text: #e0e0e0;
-  --text-muted: #a0a0a0;
-  --primary: #4a90e2;
-  --secondary: #6c757d;
-  --info: #0dcaf0;
-  --success: #28a745;
-  --light: #2a2a2a;
+  --bg: #0f160f;
+  --bg-secondary: #1b231c;
+  --text: #dfe7dc;
+  --text-muted: #97a48f;
+  --primary: #83a56f;
+  --secondary: #6c8e47;
+  --info: #81b191;
+  --success: #77a371;
+  --light: #223022;
+  --overlay-color: rgba(0, 0, 0, 0.3);
+  --font-body: 'Fira Sans', sans-serif;
 }
 
 body {
   background-color: var(--bg);
   color: var(--text);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-body);
   line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s, font-family 0.3s;
 }
 
 a {
@@ -80,7 +92,8 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.4);
+  /* Use overlay colour variable to adapt to theme */
+  background: var(--overlay-color);
   z-index: 1;
 }
 .hero-content {
