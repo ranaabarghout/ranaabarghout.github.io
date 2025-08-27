@@ -2,31 +2,31 @@
 
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
-title: Andrew McNutt
+title: Rana A. Barghout
 # description: This will be meta HTML tag content. This can be ignored.
-description: Computational Biology PhD
+description: Chemical Engineering PhD: ML for Metabolic Modeling
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
-username: Andrew McNutt
+username: Rana A. Barghout
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Computational Biology PhD
+typing_text: Chemical Engineering PhD: ML for Metabolic Modeling
 # email: Your E-Mail address for the email button.
-email: anm329@pitt.edu
+email: rana.barghout@mail.utoronto.ca
 # Need something in the CV form, will always point to file at assets/files/CV_Resume.pdf
 cv_filename: CV_Resume.pdf
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
-github_username: drewnutt
-gsc_username: https://scholar.google.com/citations?user=npgvuRUAAAAJ&hl=en
+github_username: ranaabarghout
+gsc_username: https://scholar.google.com/citations?user=7NwjBDQAAAAJ&hl=en
 dev_username: 
-linkedin_username: andrew-mcnutt-cadd
-twitter_username: 
+linkedin_username: ranaahmedbarghout
+twitter_username: rana_barghout
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -88,7 +88,7 @@ contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, se
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: drewnutt/drewnutt.github.io
+repository: ranaabarghout/ranaabarghout.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
