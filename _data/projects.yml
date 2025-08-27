@@ -26,31 +26,31 @@
 
 - title: "CPI-Pred: A deep learning framework for predicting functional parameters of compound-protein interactions"
   authors: "Z Xu, RA Barghout, J Wu, D Garg, YS Song, R Mahadevan"
-  link: "https://www.biorxiv.org/content/10.1101/2025.01.16.633372v1" # update with actual biorxiv link
+  link: "https://www.biorxiv.org/content/10.1101/2025.01.16.633372v1" 
   description: "Deep learning approach to predict kinetic parameters from compound-protein interactions."
   year: 2025
 
 - title: "Graph Data Modeling: Molecules, Proteins, & Chemical Processes"
-  authors: "JM Barraza-Chavez, RA Barghout, R Almada-Monter, ..."
+  authors: "JM Barraza-Chavez, RA Barghout, R Almada-Monter, A Jinich, R Mahadevan, B Sanchez-Lengeling"
   link: "10.1021/acsinfocus.7e9017" # update with ACS link
   description: "Explores graph-based representations for modeling molecular, protein, and chemical process data."
   year: 2025
 
 - title: "Enhancing Compound-Protein Interaction Prediction with Confidence Assessment"
   authors: "RA Barghout, Z Xu, LC Serrano, R Mahadevan"
-  link: "https://aiche.confex.com/aiche/2024/prelim.cgi/Paper/688363" # update with AIChE program link
+  link: "https://aiche.confex.com/aiche/2024/prelim.cgi/Paper/688363"
   description: "Introduces confidence estimation in CPI prediction models for improved reliability."
   year: 2024
 
 - title: "Deep Learning-Based Protein Sequence-to-Function Prediction Framework"
   authors: "Z Xu, RA Barghout, R Mahadevan"
-  link: "https://aiche.confex.com/aiche/me15/meetingapp.cgi/Paper/659537" # update with ME link
+  link: "https://aiche.confex.com/aiche/me15/meetingapp.cgi/Paper/659537" 
   description: "Sequence-to-function deep learning model for predicting protein functional properties."
   year: 2023
 
 - title: "Bridging Sequence and Kinetics: Utilizing Multi-scale Representations for Genome-Scale Metabolic Models"
   authors: "RA Barghout, LC Serrano, Z Xu, BM Sanchez, R Mahadevan"
-  link: "https://openreview.net/forum?id=KLnnAWPF0T" # update with ICLR workshop link
+  link: "https://openreview.net/forum?id=KLnnAWPF0T" 
   description: "Presents a framework linking molecular level kinetics with genome-scae metabolism for GEMs."
   year: 2025
 
