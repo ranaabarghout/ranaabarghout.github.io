@@ -6,7 +6,7 @@
 #   weight: 5
 
 - name: Git
-  weight: 3
+  weight: 4
 
 - name: Bash
   weight: 4
@@ -14,7 +14,7 @@
 - name: Slurm
   weight: 4
 
-- name: PyTorch 
+- name: PyTorch
   weight: 4
 
 - name: NumPy
@@ -23,17 +23,15 @@
 - name: Pandas
   weight: 5
 
-- name: Amber
-  weight: 2
+- name: Weights & Biases (wandb)
+  weight: 3
 
 - name: RDKit
   weight: 5
 
-- name : HuggingFace
-  weight: 2
-
-- name: OpenMM
+- name: HuggingFace
   weight: 2
 
 - name: AlphaFold
-  weight: 4
+  weight: 3
+
