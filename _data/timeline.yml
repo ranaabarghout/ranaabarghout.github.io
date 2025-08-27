@@ -17,61 +17,54 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: University of Pittsburgh/Carnegie Mellon
-  title-url: http://compbio.cmu.edu/
-  date: Aug 2019 - Jan 2025
-  subtitle: PhD Student in Koes Lab
+- title: University of Toronto & Vector Institute
+  title-url: https://www.utoronto.ca/
+  date: Sept 2021 – Present
+  subtitle: PhD Candidate, Chemical Engineering & Applied Chemistry <br>Supervisors: Krishna Mahadevan & Benjamin Sanchez-Lengeling <br>Focus: Prediction of compound-protein interaction properties, integration into genome-scale metabolic models, and graph neural network-based optimization frameworks.
   tags:
-    - tag: Structure-Based Drug Design
     - tag: Deep Learning
-    - tag: Virtual Screening
-    - tag: Affinity Prediction
-    - tag: Molecular Docking
+    - tag: Computational Biology
+    - tag: Genome-scale Modeling
+    - tag: Graph Learning
+    - tag: Metabolic Modeling
+    - tag: Constraint-Based Optimization
   timeline-side: left
 
-- title: Regenstrief Institute
-  title-url: https://www.regenstrief.org/
-  date: Summer 2019
-  subtitle: Student Research Assistant - Center for Biomedical Informatics
+- title: University of British Columbia
+  title-url: https://www.ubc.ca/
+  date: Sept 2016 – May 2021
+  subtitle: BASc in Chemical and Biological Engineering <br>Dean’s Honor List (3 years) <br>Undergraduate thesis: Integrating Machine Learning with Kinetic Models
   tags:
-    - tag: Neural Networks
-    - tag: Hyperparameter Optimization
-  timeline-side: right
-
-- title: IUPUI Division of Nephrology
-  title-url: none
-  date: Summer 2018
-  subtitle: Student Intern
-  tags:
-    - tag: Clustering
-    - tag: Dimensionality Reduction
-  timeline-side: right
-
-- title: IUPUI Division of Nephrology
-  title-url: none
-  date: Summer 2017
-  subtitle: Indiana University O'Brien Student Intern
-  tags:
-    - tag: Java
-  timeline-side: left
-
-- title: Lill Lab
-  title-url: https://pharma.unibas.ch/de/personen/markus-lill/
-  date: 2017 - 2019
-  subtitle: Undergraduate Research Assistant - Department of Medicinal Chemistry & Molecular Pharmacology
-  tags:
-    - tag: Molecular Dynamics
     - tag: Machine Learning
+    - tag: LSTM
+    - tag: Pyomo
+    - tag: SciPy
   timeline-side: right
 
-  #- title: Undergraduate Teaching Assistant
-  #  title-url: "javascript:void(0)"
-  #  date: 2016 - 2019
-  #  subtitle: Modern Mechanics and Electricity & Magnetism
-  #  timeline-side: right
+- title: Chemical Engineering Support (Co-op), BC Research Inc.
+  title-url: https://www.bcresearch.com/
+  date: Sept 2018 – April 2019
+  subtitle: Optimized meso-scale experimental workflows; conducted PIV fluid dynamics analysis; delivered training on measurement systems.
+  tags:
+    - tag: Process Optimization
+    - tag: PIV Analysis
+  timeline-side: left
 
-- title: Purdue University
-  title-url: https://purdue.edu/
-  date: 2015 - 2019
-  subtitle: B.S. Physics & Mathematics <br>Minor in Chemistry
+- title: Teaching Assistant, UofT & UBC
+  title-url: "javascript:void(0)"
+  date: Jan 2021 – Present
+  subtitle: Led tutorials and graded assignments for courses including CHE204, CHE205, CHE305, CHE222, CHE322, CHE499, CHBE221.
+  tags:
+    - tag: MATLAB
+    - tag: Python
+    - tag: Process Control
+  timeline-side: right
+
+- title: Laboratory Assistant, Dr. Louise Creagh Labs, UBC
+  title-url: "https://www.chem.ubc.ca/people/labs/creagh"
+  date: Oct 2020 – April 2021
+  subtitle: Prepared cell culture media and maintained fed-batch systems for Pichia pastoris. Revised instructional materials.
+  tags:
+    - tag: Lab Techniques
+    - tag: Bioreactors
   timeline-side: left
