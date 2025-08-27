@@ -12,10 +12,10 @@
   weight: 2
 
 - name: Java
-  weight: 2
+  weight: 1
 
 - name: HTML
   weight: 1
 
-- name: Matlab
+- name: MATLAB
   weight: 2
