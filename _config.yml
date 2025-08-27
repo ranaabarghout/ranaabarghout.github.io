@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Rana A. Barghout
 # description: This will be meta HTML tag content. This can be ignored.
-description: Chemical Engineering PhD: ML for Metabolic Modeling
+description: "Chemical Engineering PhD: ML for Metabolic Modeling"
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -14,7 +14,7 @@ baseurl: ""
 username: Rana A. Barghout
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Chemical Engineering PhD: ML for Metabolic Modeling
+typing_text: "Chemical Engineering PhD: ML for Metabolic Modeling"
 # email: Your E-Mail address for the email button.
 email: rana.barghout@mail.utoronto.ca
 # Need something in the CV form, will always point to file at assets/files/CV_Resume.pdf
