@@ -33,7 +33,7 @@
 - title: University of British Columbia
   title-url: https://www.ubc.ca/
   date: Sept 2016 – May 2021
-  subtitle: BASc in Chemical and Biological Engineering <br>Dean’s Honor List (3 years) <br>Undergraduate thesis: Integrating Machine Learning with Kinetic Models
+  subtitle: "BASc in Chemical and Biological Engineering <br>Dean’s Honor List (3 years) <br>Undergraduate thesis: Integrating Machine Learning with Kinetic Models"
   tags:
     - tag: Machine Learning
     - tag: LSTM
@@ -44,7 +44,7 @@
 - title: Chemical Engineering Support (Co-op), BC Research Inc.
   title-url: https://www.bcresearch.com/
   date: Sept 2018 – April 2019
-  subtitle: Optimized meso-scale experimental workflows; conducted PIV fluid dynamics analysis; delivered training on measurement systems.
+  subtitle: "Optimized meso-scale experimental workflows; conducted PIV fluid dynamics analysis; delivered training on measurement systems."
   tags:
     - tag: Process Optimization
     - tag: PIV Analysis
