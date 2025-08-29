@@ -14,7 +14,7 @@ baseurl: ""
 username: Rana A. Barghout
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: "Chemical Engineering PhD: ML for Metabolic Modeling"
+typing_text: "PhD - ML + Bio"
 # email: Your E-Mail address for the email button.
 email: rana.barghout@mail.utoronto.ca
 # Need something in the CV form, will always point to file at assets/files/CV_Resume.pdf
