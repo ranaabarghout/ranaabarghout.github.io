@@ -16,49 +16,49 @@
   descr: "Review of state-of-the-art generative models and datasets for enzyme design in renewable chemical and fuel production."
   date: 2023
   paper: "https://www.sciencedirect.com/science/article/pii/S0958166923001179"
-  befauthors: "RA Barghout, Z Xu, S Betala"
-  aftauthors: "R Mahadevan"
+  # befauthors: "RA Barghout, Z Xu, S Betala"
+  aftauthors: "Z Xu, S Betala, R Mahadevan"
 
 - name: "KinMod database: a tool for investigating metabolic regulation"
   descr: "A database resource for exploring kinetic models and metabolic regulation mechanisms."
   date: 2022
   paper: "https://doi.org/10.1093/database/baac081"
   befauthors: "K Haddadi"
-  aftauthors: "RA Barghout, R Mahadevan"
+  aftauthors: "R Mahadevan"
 
 - name: "CPI-Pred: A deep learning framework for predicting functional parameters of compound-protein interactions"
   descr: "Deep learning approach to predict kinetic parameters from compound-protein interactions."
   date: 2025
   paper: "https://www.biorxiv.org/content/10.1101/2025.01.16.633372v1"
-  befauthors: "Z Xu"
-  aftauthors: "RA Barghout, J Wu, D Garg, YS Song, R Mahadevan"
+  # befauthors: "Z Xu"
+  aftauthors: "Z Xu, J Wu, D Garg, YS Song, R Mahadevan"
 
 - name: "Graph Data Modeling: Molecules, Proteins, & Chemical Processes"
   descr: "Explores graph-based representations for modeling molecular, protein, and chemical process data."
   date: 2025
   paper: "https://doi.org/10.1021/acsinfocus.7e9017"
   befauthors: "JM Barraza-Chavez"
-  aftauthors: "RA Barghout, R Almada-Monter, A Jinich, R Mahadevan, B Sanchez-Lengeling"
+  aftauthors: "R Almada-Monter, A Jinich, R Mahadevan, B Sanchez-Lengeling"
 
 - name: "Enhancing Compound-Protein Interaction Prediction with Confidence Assessment"
   descr: "Introduces confidence estimation in CPI prediction models for improved reliability."
   date: 2024
   paper: "https://aiche.confex.com/aiche/2024/prelim.cgi/Paper/688363"
-  befauthors: "RA Barghout, Z Xu, LC Serrano"
-  aftauthors: "R Mahadevan"
+  # befauthors: "RA Barghout, Z Xu, LC Serrano"
+  aftauthors: " Z Xu, LC Serrano, R Mahadevan"
 
 - name: "Deep Learning-Based Protein Sequence-to-Function Prediction Framework"
   descr: "Sequence-to-function deep learning model for predicting protein functional properties."
   date: 2023
   paper: "https://aiche.confex.com/aiche/me15/meetingapp.cgi/Paper/659537"
   befauthors: "Z Xu"
-  aftauthors: "RA Barghout, R Mahadevan"
+  aftauthors: "R Mahadevan"
 
 - name: "Bridging Sequence and Kinetics: Utilizing Multi-scale Representations for Genome-Scale Metabolic Models"
   descr: "Presents a framework linking molecular level kinetics with genome-scale metabolism for GEMs."
   date: 2025
   paper: "https://openreview.net/forum?id=KLnnAWPF0T"
-  befauthors: "RA Barghout, LC Serrano, Z Xu, BM Sanchez"
-  aftauthors: "R Mahadevan"
+  # befauthors: "RA Barghout, LC Serrano, Z Xu, BM Sanchez"
+  aftauthors: "LC Serrano, Z Xu, BM Sanchez, R Mahadevan"
 
 
