@@ -5,6 +5,8 @@ My research focuses on **predicting compound-protein interaction properties** an
 ---
 
 ### Research Interests
+- Molecular Modeling
+- Cell systems
 - Personalized Medicine  
 - Drug Discovery  
 - Deep Learning  
@@ -15,12 +17,12 @@ My research focuses on **predicting compound-protein interaction properties** an
 
 ### Outside of Research
 When I’m not in the lab, I enjoy:  
-- **CrossFit** and running (half marathon planned for October)  
-- **Gardening** (check out my recent harvests)  
+- **CrossFit** and trying to get faster at running  
+- **Gardening** 
 - **Cooking**
 
 ---
 
 ### What I’m Currently Reading
-- *QED: The Strange Theory of Light and Matter* by Richard Feynman  
-- *White Nights* by Fyodor Dostoevsky
+- *Lifespan - Why We Age and Why We Don't Have To* by David Sinclair 
+- *Life of Pi* by Yann Martel
