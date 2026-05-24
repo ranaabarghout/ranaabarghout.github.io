@@ -24,5 +24,5 @@ When I’m not in the lab, I enjoy:
 ---
 
 ### What I’m Currently Reading
-- *Lifespan - Why We Age and Why We Don't Have To* by David Sinclair 
+- *Stoner* by John Williams
 - *Life of Pi* by Yann Martel

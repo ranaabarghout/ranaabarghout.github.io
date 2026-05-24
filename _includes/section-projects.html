@@ -2,7 +2,8 @@
   <h1 class="title"><span>{{site.projects_title}}</span></h1>
   <h2 class="description" style="text-align: center;"><span style="text-align: center;">A list of the published papers and conference talks that I have given. <br/>For a more up to date list, check out my <a href="{{site.gsc_username}}">Google Scholar page</a>.</span></h2>
   <div class="projects-wrapper">
-    {% for project in site.data.projects %}
+    {% assign sorted_projects = site.data.projects | sort: "date" | reverse %}
+    {% for project in sorted_projects %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3>
@@ -10,7 +11,7 @@
 	<div class="project-desc">{{project.descr}}</div><div class="project-desc-date">{{project.date}}</div>
 	<br style="clear:both;">
 	{% if project.befauthors or project.aftauthors %}
-	<p class="project-auth">{{project.befauthors}} <strong><u>RA Barghout</u></strong>, {{project.aftauthors}}</p> 
+	<p class="project-auth">{{project.befauthors}} <strong><u>RA Barghout</u></strong>, {{project.aftauthors}}</p>
 	{% endif %}
         {% if project.paper %}
           <a class="highlight-link" href="{{project.paper}}" target="_blank" rel="noreferrer">

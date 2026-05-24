@@ -18,6 +18,11 @@
   paper: "https://www.sciencedirect.com/science/article/pii/S0958166923001179"
   # befauthors: "RA Barghout, Z Xu, S Betala"
   aftauthors: "Z Xu, S Betala, R Mahadevan"
+  tags:
+    - tag: Generative Models
+    - tag: Enzyme Design
+    - tag: Deep Learning
+    - tag: Review
 
 - name: "KinMod database: a tool for investigating metabolic regulation"
   descr: "A database resource for exploring kinetic models and metabolic regulation mechanisms."
@@ -25,6 +30,10 @@
   paper: "https://doi.org/10.1093/database/baac081"
   befauthors: "K Haddadi"
   aftauthors: "R Mahadevan"
+  tags:
+    - tag: Kinetic Modeling
+    - tag: Metabolic Regulation
+    - tag: Database
 
 - name: "CPI-Pred: A deep learning framework for predicting functional parameters of compound-protein interactions"
   descr: "Deep learning approach to predict kinetic parameters from compound-protein interactions."
@@ -32,6 +41,11 @@
   paper: "https://www.biorxiv.org/content/10.1101/2025.01.16.633372v1"
   # befauthors: "Z Xu"
   aftauthors: "Z Xu, J Wu, D Garg, YS Song, R Mahadevan"
+  tags:
+    - tag: CPI Prediction
+    - tag: Deep Learning
+    - tag: Kinetics
+    - tag: Drug Discovery
 
 - name: "Graph Data Modeling: Molecules, Proteins, & Chemical Processes"
   descr: "Explores graph-based representations for modeling molecular, protein, and chemical process data."
@@ -39,6 +53,11 @@
   paper: "https://doi.org/10.1021/acsinfocus.7e9017"
   befauthors: "JM Barraza-Chavez"
   aftauthors: "R Almada-Monter, A Jinich, R Mahadevan, B Sanchez-Lengeling"
+  tags:
+    - tag: Graph Learning
+    - tag: GNN
+    - tag: Molecular Modeling
+    - tag: Proteins
 
 - name: "Enhancing Compound-Protein Interaction Prediction with Confidence Assessment"
   descr: "Introduces confidence estimation in CPI prediction models for improved reliability."
@@ -46,6 +65,11 @@
   paper: "https://aiche.confex.com/aiche/2024/prelim.cgi/Paper/688363"
   # befauthors: "RA Barghout, Z Xu, LC Serrano"
   aftauthors: " Z Xu, LC Serrano, R Mahadevan"
+  tags:
+    - tag: CPI Prediction
+    - tag: Uncertainty Quantification
+    - tag: Deep Learning
+    - tag: AIChE Talk
 
 - name: "Deep Learning-Based Protein Sequence-to-Function Prediction Framework"
   descr: "Sequence-to-function deep learning model for predicting protein functional properties."
@@ -53,6 +77,11 @@
   paper: "https://aiche.confex.com/aiche/me15/meetingapp.cgi/Paper/659537"
   befauthors: "Z Xu"
   aftauthors: "R Mahadevan"
+  tags:
+    - tag: Protein Engineering
+    - tag: Sequence Modeling
+    - tag: Deep Learning
+    - tag: AIChE Talk
 
 - name: "Bridging Sequence and Kinetics: Utilizing Multi-scale Representations for Genome-Scale Metabolic Models"
   descr: "Presents a framework linking molecular level kinetics with genome-scale metabolism for GEMs."
@@ -60,5 +89,12 @@
   paper: "https://openreview.net/forum?id=KLnnAWPF0T"
   # befauthors: "RA Barghout, LC Serrano, Z Xu, BM Sanchez"
   aftauthors: "LC Serrano, Z Xu, BM Sanchez, R Mahadevan"
+  tags:
+    - tag: Genome-Scale Modeling
+    - tag: Metabolic Engineering
+    - tag: Multi-scale
+    - tag: Linear Programming
+    - tag: Optimization
+    - tag: ICLR
 
 
