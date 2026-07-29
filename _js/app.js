@@ -35,6 +35,7 @@ $(document).ready(function() {
   });
 
   randomizeOrder();
+  loadGoodreadsCurrentlyReading();
 });
 
 /* FUNCTIONS */
@@ -107,6 +108,57 @@ TxtRotate.prototype.tick = function() {
     that.tick();
   }, delta);
 };
+
+/* Goodreads Currently Reading */
+
+function loadGoodreadsCurrentlyReading() {
+  var container = document.getElementById('goodreads-currently-reading');
+  if (!container) return;
+
+  var shelfUrl = 'https://www.goodreads.com/review/list_rss/161345903?shelf=currently-reading';
+  var proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(shelfUrl);
+
+  fetch(proxyUrl)
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.status !== 'ok' || !data.items || !data.items.length) {
+        container.textContent = 'Nothing on my Goodreads shelf right now.';
+        return;
+      }
+
+      var list = document.createElement('ul');
+      list.className = 'goodreads-books';
+
+      data.items.forEach(function(item) {
+        var li = document.createElement('li');
+        li.className = 'goodreads-book';
+
+        var imgMatch = item.description && item.description.match(/<img[^>]+src="([^"]+)"/);
+        if (imgMatch) {
+          var img = document.createElement('img');
+          img.src = imgMatch[1];
+          img.alt = item.title;
+          img.className = 'goodreads-book-cover';
+          li.appendChild(img);
+        }
+
+        var link = document.createElement('a');
+        link.href = item.link;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = item.title;
+        li.appendChild(link);
+
+        list.appendChild(li);
+      });
+
+      container.innerHTML = '';
+      container.appendChild(list);
+    })
+    .catch(function() {
+      container.textContent = 'Couldn’t load my Goodreads shelf right now.';
+    });
+}
 
 /* Word Cloud */
 

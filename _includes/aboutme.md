@@ -24,5 +24,4 @@ When I’m not in the lab, I enjoy:
 ---
 
 ### What I’m Currently Reading
-- *Stoner* by John Williams
-- *Life of Pi* by Yann Martel
+<span id="goodreads-currently-reading">Loading from Goodreads&hellip;</span>

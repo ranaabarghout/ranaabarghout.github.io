@@ -1,6 +1,6 @@
 /* Imports */
 
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 /* Variables */
@@ -8,7 +8,7 @@
 $small-screen: 48em !default;
 $medium-screen: 62em !default;
 $large-screen: 75em !default;
-$font-family: "Raleway", sans-serif;
+$font-family: "Inter", sans-serif;
 $font-family-numbers: "Josefin Sans", sans-serif;
 $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
@@ -111,6 +111,33 @@ a {
 
 .layout .card .description {
   text-align: justify;
+}
+
+.goodreads-books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  text-align: left;
+}
+
+.goodreads-book {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.goodreads-book-cover {
+  border-radius: 4px;
+  height: 60px;
+  object-fit: cover;
+  width: 40px;
+}
+
+.goodreads-book a {
+  color: $primary-color;
 }
 
 .neumorphism-button {
