@@ -16,8 +16,8 @@ My research focuses on **predicting compound-protein interaction properties** an
 ---
 
 ### Outside of Research
-When I’m not in the lab, I enjoy:  
-- **CrossFit** and trying to get faster at running  
+When I’m not in front of a computer, I enjoy:  
+- Road cycling, weight lifting, and trying to get faster at running  
 - **Gardening** 
 - **Cooking**
 
