@@ -53,6 +53,7 @@
 - name: "Graph Data Modeling: Molecules, Proteins, & Chemical Processes"
   descr: "Explores graph-based representations for modeling molecular, protein, and chemical process data."
   date: 2025-07-08
+  image: assets/img/publications/graph-data-modeling.jpg
   paper: "https://doi.org/10.1021/acsinfocus.7e9017"
   befauthors: "JM Barraza-Chavez"
   aftauthors: "R Almada-Monter, A Jinich, R Mahadevan, B Sanchez-Lengeling"
@@ -88,3 +89,15 @@
     - tag: Enzyme Design
     - tag: Deep Learning
     - tag: Review
+
+- name: "KinMod database: a tool for investigating metabolic regulation"
+  descr: "A database resource for exploring kinetic models and metabolic regulation mechanisms."
+  date: 2022-10-12
+  image: assets/img/publications/kinmod.jpg
+  paper: "https://doi.org/10.1093/database/baac081"
+  befauthors: "K Haddadi"
+  aftauthors: "R Mahadevan"
+  tags:
+    - tag: Kinetic Modeling
+    - tag: Metabolic Regulation
+    - tag: Database

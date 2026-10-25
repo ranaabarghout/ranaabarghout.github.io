@@ -16,10 +16,7 @@ My research focuses on building systems that **predict the functional parameters
 ---
 
 ### Outside of Research
-When I’m not in front of a computer, I enjoy:  
-- Road cycling, weight lifting, and trying to get faster at running  
-- **Gardening** 
-- **Cooking**
+When I’m not in front of a computer, I enjoy road cycling, weight lifting, and cooking, and I’m attempting to get faster at running.
 
 ---
 
