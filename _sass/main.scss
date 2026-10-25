@@ -694,6 +694,46 @@ a {
   float: right;
 }
 
+.publication {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.publication-figure {
+  flex: 0 0 auto;
+  align-self: center;
+}
+
+.publication-figure img {
+  display: block;
+  width: 100%;
+  max-width: 16rem;
+  max-height: 11rem;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  box-sizing: border-box;
+}
+
+.publication-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+@media only screen and (min-width: 48em) {
+  .publication {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .publication-figure {
+    width: 14rem;
+    margin-top: 1rem;
+  }
+}
+
 .project-stars-forks {
   fill: $text-color;
   font-family: $font-family-numbers;

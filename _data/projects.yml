@@ -7,37 +7,53 @@
 # - name: project X
 #   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
 #   demo: https://example.com/
+#   date: Publication date (YYYY-MM-DD), used to sort newest first
+#   image: Path to a small summary figure, e.g. assets/img/publications/x.jpg
 #   tags:
 #     - tag: MongoDB
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
-- name: "Advances in generative modeling methods and datasets to design novel enzymes for renewable chemicals and fuels"
-  descr: "Review of state-of-the-art generative models and datasets for enzyme design in renewable chemical and fuel production."
-  date: 2023
-  paper: "https://www.sciencedirect.com/science/article/pii/S0958166923001179"
-  # befauthors: "RA Barghout, Z Xu, S Betala"
-  aftauthors: "Z Xu, S Betala, R Mahadevan"
+- name: "Do protein representations encode variant function? Diagnosing residue-level protein attributions via embedding-space gradients"
+  descr: "Introduces IGLOO, a framework that scores residue-level attributions from protein language model fitness predictors against synthetic landscapes with known per-residue importance."
+  date: 2026-10-22
+  image: assets/img/publications/igloo.jpg
+  paper: "https://www.biorxiv.org/content/10.64898/2026.10.21.760763v1"
+  code: "https://github.com/chemcognition-lab/IGLOO"
+  aftauthors: "S Wu, W Chau, JM Barraza-Chavez, P Driza, R Mahadevan, B Sanchez-Lengeling"
   tags:
-    - tag: Generative Models
-    - tag: Enzyme Design
-    - tag: Deep Learning
-    - tag: Review
+    - tag: Protein Language Models
+    - tag: Interpretability
+    - tag: Protein Engineering
+    - tag: Preprint
 
-- name: "KinMod database: a tool for investigating metabolic regulation"
-  descr: "A database resource for exploring kinetic models and metabolic regulation mechanisms."
-  date: 2022
-  paper: "https://doi.org/10.1093/database/baac081"
-  befauthors: "K Haddadi"
-  aftauthors: "R Mahadevan"
+- name: "kinGEMs: A Robust and Scalable Framework for Resource-Constraint Models through Stochastic Tuning of Deep Learning-Predicted Kinetic Parameters"
+  descr: "Integrates deep learning-predicted kcat values from CPI-Pred into enzyme-constrained genome-scale models for metabolic optimization."
+  date: 2026-03-18
+  image: assets/img/publications/kingems.jpg
+  paper: "https://www.biorxiv.org/content/10.64898/2026.03.14.711833v1"
+  aftauthors: "L Chiñas Serrano, B Sanchez-Lengeling, R Mahadevan"
   tags:
-    - tag: Kinetic Modeling
-    - tag: Metabolic Regulation
-    - tag: Database
+    - tag: Genome-Scale Modeling
+    - tag: Enzyme Kinetics
+    - tag: Deep Learning
+    - tag: Preprint
+
+- name: "Machine Learning for Sequence-to-Function Approaches"
+  descr: "Book chapter reviewing machine learning models, benchmarks, and datasets for predicting protein function from sequence."
+  date: 2026-01-09
+  image: assets/img/publications/ml-big-data-biotech-book.jpg
+  paper: "https://doi.org/10.1002/9783527850532.ch4"
+  aftauthors: "M Kirby, A Zheng, L Chinas, M Mohammadi, Z Xu, B Sanchez-Lengeling, R Mahadevan"
+  tags:
+    - tag: Protein Language Models
+    - tag: Sequence-to-Function
+    - tag: Book Chapter
 
 - name: "CPI-Pred: A deep learning framework for predicting functional parameters of compound-protein interactions"
   descr: "Deep learning approach to predict kinetic parameters from compound-protein interactions."
-  date: 2025
+  date: 2025-01-21
+  image: assets/img/publications/cpi-pred.jpg
   paper: "https://www.biorxiv.org/content/10.1101/2025.01.16.633372v1"
   # befauthors: "Z Xu"
   aftauthors: "Z Xu, J Wu, D Garg, YS Song, R Mahadevan"
@@ -47,54 +63,15 @@
     - tag: Kinetics
     - tag: Drug Discovery
 
-- name: "Graph Data Modeling: Molecules, Proteins, & Chemical Processes"
-  descr: "Explores graph-based representations for modeling molecular, protein, and chemical process data."
-  date: 2025
-  paper: "https://doi.org/10.1021/acsinfocus.7e9017"
-  befauthors: "JM Barraza-Chavez"
-  aftauthors: "R Almada-Monter, A Jinich, R Mahadevan, B Sanchez-Lengeling"
+- name: "Advances in generative modeling methods and datasets to design novel enzymes for renewable chemicals and fuels"
+  descr: "Review of state-of-the-art generative models and datasets for enzyme design in renewable chemical and fuel production."
+  date: 2023-12-01
+  image: assets/img/publications/generative-enzymes-review.jpg
+  paper: "https://www.sciencedirect.com/science/article/pii/S0958166923001179"
+  # befauthors: "RA Barghout, Z Xu, S Betala"
+  aftauthors: "Z Xu, S Betala, R Mahadevan"
   tags:
-    - tag: Graph Learning
-    - tag: GNN
-    - tag: Molecular Modeling
-    - tag: Proteins
-
-- name: "Enhancing Compound-Protein Interaction Prediction with Confidence Assessment"
-  descr: "Introduces confidence estimation in CPI prediction models for improved reliability."
-  date: 2024
-  paper: "https://aiche.confex.com/aiche/2024/prelim.cgi/Paper/688363"
-  # befauthors: "RA Barghout, Z Xu, LC Serrano"
-  aftauthors: " Z Xu, LC Serrano, R Mahadevan"
-  tags:
-    - tag: CPI Prediction
-    - tag: Uncertainty Quantification
+    - tag: Generative Models
+    - tag: Enzyme Design
     - tag: Deep Learning
-    - tag: AIChE Talk
-
-- name: "Deep Learning-Based Protein Sequence-to-Function Prediction Framework"
-  descr: "Sequence-to-function deep learning model for predicting protein functional properties."
-  date: 2023
-  paper: "https://aiche.confex.com/aiche/me15/meetingapp.cgi/Paper/659537"
-  befauthors: "Z Xu"
-  aftauthors: "R Mahadevan"
-  tags:
-    - tag: Protein Engineering
-    - tag: Sequence Modeling
-    - tag: Deep Learning
-    - tag: AIChE Talk
-
-- name: "Bridging Sequence and Kinetics: Utilizing Multi-scale Representations for Genome-Scale Metabolic Models"
-  descr: "Presents a framework linking molecular level kinetics with genome-scale metabolism for GEMs."
-  date: 2025
-  paper: "https://openreview.net/forum?id=KLnnAWPF0T"
-  # befauthors: "RA Barghout, LC Serrano, Z Xu, BM Sanchez"
-  aftauthors: "LC Serrano, Z Xu, BM Sanchez, R Mahadevan"
-  tags:
-    - tag: Genome-Scale Modeling
-    - tag: Metabolic Engineering
-    - tag: Multi-scale
-    - tag: Linear Programming
-    - tag: Optimization
-    - tag: ICLR
-
-
+    - tag: Review

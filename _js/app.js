@@ -115,13 +115,10 @@ function loadGoodreadsCurrentlyReading() {
   var container = document.getElementById('goodreads-currently-reading');
   if (!container) return;
 
-  var shelfUrl = 'https://www.goodreads.com/review/list_rss/161345903?shelf=currently-reading';
-  var proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(shelfUrl);
-
-  fetch(proxyUrl)
+  fetch('assets/goodreads.json')
     .then(function(response) { return response.json(); })
     .then(function(data) {
-      if (data.status !== 'ok' || !data.items || !data.items.length) {
+      if (!data.books || !data.books.length) {
         container.textContent = 'Nothing on my Goodreads shelf right now.';
         return;
       }
@@ -129,14 +126,13 @@ function loadGoodreadsCurrentlyReading() {
       var list = document.createElement('ul');
       list.className = 'goodreads-books';
 
-      data.items.forEach(function(item) {
+      data.books.forEach(function(item) {
         var li = document.createElement('li');
         li.className = 'goodreads-book';
 
-        var imgMatch = item.description && item.description.match(/<img[^>]+src="([^"]+)"/);
-        if (imgMatch) {
+        if (item.cover) {
           var img = document.createElement('img');
-          img.src = imgMatch[1];
+          img.src = item.cover;
           img.alt = item.title;
           img.className = 'goodreads-book-cover';
           li.appendChild(img);
@@ -164,6 +160,7 @@ function loadGoodreadsCurrentlyReading() {
 
 function randomizeOrder() {
   var parent = document.getElementById('skills');
+  if (!parent) return;
   var divs = parent.getElementsByTagName('div');
   var frag = document.createDocumentFragment();
 
