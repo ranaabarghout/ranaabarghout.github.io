@@ -50,6 +50,19 @@
     - tag: Sequence-to-Function
     - tag: Book Chapter
 
+- name: "Graph Data Modeling: Molecules, Proteins, & Chemical Processes"
+  descr: "Explores graph-based representations for modeling molecular, protein, and chemical process data."
+  date: 2025-07-08
+  paper: "https://doi.org/10.1021/acsinfocus.7e9017"
+  befauthors: "JM Barraza-Chavez"
+  aftauthors: "R Almada-Monter, A Jinich, R Mahadevan, B Sanchez-Lengeling"
+  tags:
+    - tag: Graph Learning
+    - tag: GNN
+    - tag: Molecular Modeling
+    - tag: Proteins
+    - tag: Book
+
 - name: "CPI-Pred: A deep learning framework for predicting functional parameters of compound-protein interactions"
   descr: "Deep learning approach to predict kinetic parameters from compound-protein interactions."
   date: 2025-01-21
