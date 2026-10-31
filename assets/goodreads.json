@@ -25,7 +25,7 @@
       "title": "The Good Eye",
       "author": "Jess Gibson",
       "link": "https://www.goodreads.com/book/show/241039414",
-      "cover": ""
+      "cover": "assets/img/books/the-good-eye.jpg"
     },
     {
       "title": "If an Egyptian Cannot Speak English",
@@ -49,7 +49,7 @@
       "title": "Stoner",
       "author": "John Williams",
       "link": "https://www.goodreads.com/book/show/8551582",
-      "cover": "https://covers.openlibrary.org/b/isbn/9781590173930-M.jpg"
+      "cover": "https://covers.openlibrary.org/b/id/8310729-M.jpg"
     },
     {
       "title": "Life of Pi",

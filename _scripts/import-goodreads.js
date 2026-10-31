@@ -15,6 +15,11 @@ const EXCLUDED_BOOK_IDS = [
   '230923157' // Why Palestine?: Reflections From Singapore
 ];
 
+// Local covers for books Open Library doesn't have, keyed by Goodreads Book Id.
+const COVER_OVERRIDES = {
+  '241039414': 'assets/img/books/the-good-eye.jpg'
+};
+
 // Minimal RFC 4180 parser: handles quoted fields containing commas, quotes and newlines.
 function parseCsv(text) {
   const rows = [];
@@ -67,6 +72,8 @@ async function coverExists(url) {
 }
 
 async function findCover(book) {
+  if (COVER_OVERRIDES[book['Book Id']]) return COVER_OVERRIDES[book['Book Id']];
+
   const isbn = cleanIsbn(book['ISBN13']) || cleanIsbn(book['ISBN']);
   if (isbn) {
     const url = 'https://covers.openlibrary.org/b/isbn/' + isbn + '-M.jpg';

@@ -124,21 +124,28 @@ function renderGoodreadsBooks(container, books, emptyText) {
     var li = document.createElement('li');
     li.className = 'goodreads-book';
 
-    if (item.cover) {
-      var img = document.createElement('img');
-      img.src = item.cover;
-      img.alt = item.title;
-      img.className = 'goodreads-book-cover';
-      li.appendChild(img);
-    }
-
     var link = document.createElement('a');
     link.href = item.link;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
-    link.textContent = item.title;
-    li.appendChild(link);
+    link.title = item.title;
 
+    // Books without a cover get an empty frame so every title lines up under a cover.
+    var cover = document.createElement(item.cover ? 'img' : 'span');
+    cover.className = 'goodreads-book-cover';
+    if (item.cover) {
+      cover.src = item.cover;
+      cover.alt = '';
+      cover.loading = 'lazy';
+    }
+    link.appendChild(cover);
+
+    var title = document.createElement('span');
+    title.className = 'goodreads-book-title';
+    title.textContent = item.title;
+    link.appendChild(title);
+
+    li.appendChild(link);
     list.appendChild(li);
   });
 
