@@ -35,7 +35,7 @@ $(document).ready(function() {
   });
 
   randomizeOrder();
-  loadGoodreadsCurrentlyReading();
+  loadGoodreadsShelves();
 });
 
 /* FUNCTIONS */
@@ -109,50 +109,57 @@ TxtRotate.prototype.tick = function() {
   }, delta);
 };
 
-/* Goodreads Currently Reading */
+/* Goodreads Shelves */
 
-function loadGoodreadsCurrentlyReading() {
-  var container = document.getElementById('goodreads-currently-reading');
-  if (!container) return;
+function renderGoodreadsBooks(container, books, emptyText) {
+  if (!books || !books.length) {
+    container.textContent = emptyText;
+    return;
+  }
+
+  var list = document.createElement('ul');
+  list.className = 'goodreads-books';
+
+  books.forEach(function(item) {
+    var li = document.createElement('li');
+    li.className = 'goodreads-book';
+
+    if (item.cover) {
+      var img = document.createElement('img');
+      img.src = item.cover;
+      img.alt = item.title;
+      img.className = 'goodreads-book-cover';
+      li.appendChild(img);
+    }
+
+    var link = document.createElement('a');
+    link.href = item.link;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = item.title;
+    li.appendChild(link);
+
+    list.appendChild(li);
+  });
+
+  container.innerHTML = '';
+  container.appendChild(list);
+}
+
+function loadGoodreadsShelves() {
+  var current = document.getElementById('goodreads-currently-reading');
+  var thisYear = document.getElementById('goodreads-read-this-year');
+  if (!current && !thisYear) return;
 
   fetch('assets/goodreads.json')
     .then(function(response) { return response.json(); })
     .then(function(data) {
-      if (!data.books || !data.books.length) {
-        container.textContent = 'Nothing on my Goodreads shelf right now.';
-        return;
-      }
-
-      var list = document.createElement('ul');
-      list.className = 'goodreads-books';
-
-      data.books.forEach(function(item) {
-        var li = document.createElement('li');
-        li.className = 'goodreads-book';
-
-        if (item.cover) {
-          var img = document.createElement('img');
-          img.src = item.cover;
-          img.alt = item.title;
-          img.className = 'goodreads-book-cover';
-          li.appendChild(img);
-        }
-
-        var link = document.createElement('a');
-        link.href = item.link;
-        link.target = '_blank';
-        link.rel = 'noopener noreferrer';
-        link.textContent = item.title;
-        li.appendChild(link);
-
-        list.appendChild(li);
-      });
-
-      container.innerHTML = '';
-      container.appendChild(list);
+      if (current) renderGoodreadsBooks(current, data.currently_reading, 'Nothing on my Goodreads shelf right now.');
+      if (thisYear) renderGoodreadsBooks(thisYear, data.read_this_year, 'Nothing finished yet this year.');
     })
     .catch(function() {
-      container.textContent = 'Couldn’t load my Goodreads shelf right now.';
+      if (current) current.textContent = 'Couldn’t load my Goodreads shelf right now.';
+      if (thisYear) thisYear.textContent = 'Couldn’t load my Goodreads shelf right now.';
     });
 }
 

@@ -1,5 +1,6 @@
 {
-  "books": [
+  "year": 2026,
+  "currently_reading": [
     {
       "title": "Yellowface",
       "author": "R.F. Kuang",
@@ -18,5 +19,6 @@
       "link": "https://www.goodreads.com/review/show/8666585771?utm_medium=api&utm_source=rss",
       "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753932705l/238226942._SX98_.jpg"
     }
-  ]
+  ],
+  "read_this_year": []
 }

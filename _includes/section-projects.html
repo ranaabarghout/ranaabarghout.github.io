@@ -1,27 +1,26 @@
 {% if site.show_projects %}
   <h1 class="title"><span>{{site.projects_title}}</span></h1>
-  <h2 class="description" style="text-align: center;"><span style="text-align: center;">Papers, preprints, and conference talks, newest first. <br/>For a more up to date list, check out my <a href="{{site.gsc_username}}">Google Scholar page</a>.</span></h2>
+  <h2 class="description section-intro">Papers, preprints, and book chapters, newest first. For a more up-to-date list, see my <a href="{{site.gsc_username}}">Google Scholar page</a>.</h2>
   <div class="projects-wrapper">
     {% assign sorted_projects = site.data.projects | sort: "date" | reverse %}
     {% for project in sorted_projects %}
-      <div class="project publication neumorphism-card" data-aos="zoom-in-down">
+      <div class="project publication" data-aos="fade-up">
         {% if project.image %}
           <a class="publication-figure" href="{{project.paper}}" target="_blank" rel="noreferrer">
             <img src="{{ project.image | relative_url }}" alt="Summary figure for {{project.name}}" loading="lazy">
           </a>
         {% endif %}
         <div class="publication-body">
-          <div class="name-link-wrapper">
-            <h3>{{project.name}}</h3>
-          </div>
-          <div class="project-desc">{{project.descr}}</div><div class="project-desc-date">{{ project.date | date: "%b %Y" }}</div>
-          <br style="clear:both;">
+          <div class="publication-meta">{{ project.date | date: "%b %Y" }}</div>
+          <h3>{{project.name}}</h3>
+          <p class="publication-desc">{{project.descr}}</p>
           {% if project.befauthors or project.aftauthors %}
-          <p class="project-auth">{{project.befauthors}} <strong><u>RA Barghout</u></strong>, {{project.aftauthors}}</p>
+          <p class="project-auth">{% if project.befauthors %}{{project.befauthors}}, {% endif %}<strong><u>RA Barghout</u></strong>{% if project.aftauthors %}, {{project.aftauthors}}{% endif %}</p>
           {% endif %}
+          <div class="publication-links">
           {% if project.paper %}
             <a class="highlight-link" href="{{project.paper}}" target="_blank" rel="noreferrer">
-              Link to Paper
+              Paper
             </a>
           {% endif %}
           {% if project.code %}
@@ -31,18 +30,19 @@
           {% endif %}
           {% if project.talk %}
             <a class="highlight-link" href="{{project.talk}}" target="_blank" rel="noreferrer">
-              Link to Talk
+              Talk
             </a>
           {% endif %}
           {% if project.poster %}
             <a class="highlight-link" href="{{project.poster}}" target="_blank" rel="noreferrer">
-              Link to Poster
+              Poster
             </a>
           {% endif %}
+          </div>
           {% if project.tags %}
             <div class="tag-wrapper">
               {% for tag in project.tags %}
-                <span class="tag neumorphism-card">{{tag.tag}}</span>
+                <span class="tag">{{tag.tag}}</span>
               {% endfor %}
             </div>
           {% endif %}

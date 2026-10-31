@@ -22,6 +22,8 @@ $card-bg-color: linear-gradient(
 );
 $primary-color: #AF59D0;
 $title-color: #AF00EE;
+$muted-color: rgba(255, 255, 255, 0.62);
+$rule-color: rgba(255, 255, 255, 0.12);
 
 /* General */
 
@@ -93,20 +95,53 @@ a {
 
 .layout {
   margin: 0.5rem;
-  max-width: $large-screen;
+  max-width: 60rem;
   padding: 0.5rem 0.5rem;
 }
 
 .layout .card {
-  background: $card-bg-color;
-  border-radius: 2rem;
-  margin: 3rem 0;
-  padding: 1rem 2rem;
+  margin: 3rem 0 4.5rem;
 }
 
 .layout .card .title {
-  text-align: center;
+  align-items: center;
+  color: $primary-color;
+  display: flex;
+  font-size: 0.85rem;
+  font-weight: 500;
+  gap: 1rem;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  margin: 0 0 2rem;
   position: relative;
+  text-transform: uppercase;
+
+  &::after {
+    border-top: 1px solid $rule-color;
+    content: "";
+    flex: 1;
+  }
+}
+
+.layout .card .description h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.75rem;
+}
+
+.layout hr {
+  border: 0;
+  border-top: 1px solid $rule-color;
+  margin: 2rem 0;
+}
+
+.section-intro {
+  color: $muted-color;
+  font-size: 1rem !important;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: -0.75rem 0 1.5rem;
 }
 
 .layout .card .subtitle {
@@ -115,7 +150,8 @@ a {
 
 .layout .card .description {
   font-family: $font-family;
-  text-align: justify;
+  line-height: 1.6;
+  text-align: left;
 }
 
 .goodreads-books {
@@ -700,9 +736,66 @@ a {
 }
 
 .publication {
+  border-top: 1px solid $rule-color;
+  border-radius: 0;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin: 0;
+  padding: 1.75rem 0;
+
+  &:first-child {
+    border-top: 0;
+    padding-top: 0.5rem;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0.4rem 0 0.5rem;
+  }
+
+  .project-auth {
+    color: $muted-color;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin: 0 0 0.75rem;
+  }
+}
+
+.publication-meta,
+.publication-links .highlight-link,
+.tag {
+  font-family: $font-family-headings;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.publication-meta {
+  color: $muted-color;
+  font-size: 0.72rem;
+}
+
+.publication-desc {
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
+}
+
+.publication-links .highlight-link {
+  box-shadow: none;
+  font-size: 0.75rem;
+  margin-right: 1.25rem;
+  padding: 0;
+
+  &::after {
+    content: " \2197";
+  }
+
+  &:hover {
+    box-shadow: none;
+    color: $text-color;
+  }
 }
 
 .publication-figure {
@@ -717,7 +810,7 @@ a {
   max-height: 11rem;
   object-fit: contain;
   background: #fff;
-  border-radius: 0.5rem;
+  border-radius: 0.375rem;
   padding: 0.25rem;
   box-sizing: border-box;
 }
@@ -734,8 +827,9 @@ a {
   }
 
   .publication-figure {
+    align-self: flex-start;
     width: 14rem;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
   }
 }
 
@@ -749,14 +843,17 @@ a {
 }
 
 .tag-wrapper {
-  margin: 1rem 0 0 0;
+  margin: 0.75rem 0 0 0;
 }
 
 .tag {
-  border-radius: 0.5rem;
+  border: 1px solid $rule-color;
+  border-radius: 999px;
+  color: $muted-color;
   display: inline-block;
-  margin-bottom: 0.25rem;
-  padding: 0.5rem;
+  font-size: 0.65rem;
+  margin: 0 0.35rem 0.4rem 0;
+  padding: 0.3rem 0.65rem;
 }
 
 /* Contact Card */
@@ -1022,7 +1119,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     > * {
-      width: 94%;
+      width: 100%;
     }
   }
 
@@ -1045,9 +1142,6 @@ a {
     padding: 3rem 3rem;
   }
 
-  .layout .card {
-    padding: 1rem 3rem;
-  }
 
 	.profile{
 		.pic {
@@ -1077,7 +1171,7 @@ a {
 
   .projects-wrapper {
     > * {
-      width: 95%;
+      width: 100%;
     }
   }
 }
@@ -1115,7 +1209,7 @@ a {
 
   .projects-wrapper {
     > * {
-      width: 96%;
+      width: 100%;
     }
   }
 }

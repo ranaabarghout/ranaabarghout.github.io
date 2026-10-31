@@ -17,6 +17,8 @@ jobs:
         with:
           node-version: 20
       - run: node .github/scripts/fetch-goodreads.js
+        env:
+          GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
       - name: Commit if changed
         run: |
           if [ -n "$(git status --porcelain assets/goodreads.json)" ]; then

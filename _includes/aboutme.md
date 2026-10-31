@@ -22,3 +22,6 @@ When I’m not in front of a computer, I enjoy road cycling, weight lifting, and
 
 ### What I’m Currently Reading
 <span id="goodreads-currently-reading">Loading from Goodreads&hellip;</span>
+
+### What I Read This Year
+<span id="goodreads-read-this-year">Loading from Goodreads&hellip;</span>
