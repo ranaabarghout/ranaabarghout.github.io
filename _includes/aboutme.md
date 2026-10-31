@@ -7,11 +7,12 @@ My research focuses on building systems that **predict the functional parameters
 ### Research Interests
 - Molecular Modeling
 - Cell systems
-- Personalized Medicine  
-- Drug Discovery  
-- Deep Learning  
-- Graph Learning  
-- Neural Network-based Linear Programming  
+- Personalized Medicine
+- Drug Discovery
+- Deep Learning
+- Graph Learning
+- Neural Network-based Linear Programming
+{: .two-column}
 
 ---
 

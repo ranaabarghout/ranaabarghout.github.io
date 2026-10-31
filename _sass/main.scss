@@ -130,6 +130,19 @@ a {
   margin: 0 0 0.75rem;
 }
 
+// flow-root keeps the list beside the floated profile photo instead of underneath it
+.two-column {
+  column-gap: 2.5rem;
+  columns: 2;
+  display: flow-root;
+  margin: 0;
+  padding-left: 1.25rem;
+
+  li {
+    break-inside: avoid;
+  }
+}
+
 .layout hr {
   border: 0;
   border-top: 1px solid $rule-color;
